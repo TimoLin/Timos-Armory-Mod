@@ -12,6 +12,18 @@ def jsonWrapper(x,y,item):
             '    },\n'
     return (line)
 
+def jsonWrapperLoot(x,y,item):
+    line =  '    {\n'+\
+            '      "x": '+str(x)+',\n' + \
+            '      "y": '+str(y)+',\n' + \
+            '      "marker": "FixedLoot",\n' +\
+            '      "width": 1,\n'+\
+            '      "height": 1,\n'+\
+            '      "item": "'+item+'"\n' + \
+            '    },\n'
+    return (line)
+
+
 def main():
     itemDir = "./ExpandedCDB-BP/item/"
     # 1. Melee items
@@ -57,12 +69,18 @@ def main():
     lastItem = ""
     for item in os.listdir(itemDir+"/Meta"):
         item = item[6:item.index(".")]
-        metas.append(item)
+        if "BossRune" not in item:
+            metas.append(item)
         # if item[0:-1] == lastItem[0:-1]:
             # metas[-1] = item
         # else:
             # metas.append(item)
             # lastItem=item
+
+    # 9. Mutations/Perks
+    # mutations = []
+    
+
     
     # Read base room file
     f = open('src/PrisonFlaskRoom-BP.json','r')
@@ -152,7 +170,7 @@ def main():
             if metaIndex < len(metas):
                 x = xRange[0]+i*2+1
                 y = yList[j]
-                f.writelines(jsonWrapper(x,y,metas[metaIndex]))
+                f.writelines(jsonWrapperLoot(x,y,metas[metaIndex]))
    
     f.writelines(tail)
 
