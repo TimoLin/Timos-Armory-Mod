@@ -78,7 +78,11 @@ def main():
             # lastItem=item
 
     # 9. Mutations/Perks
-    # mutations = []
+    mutations = []
+    for item in os.listdir(itemDir+"/Perk"):
+        item = item[6:item.index(".")]
+        mutations.append(item)
+    
     
 
     
@@ -160,17 +164,23 @@ def main():
                 y = yList[j]
                 f.writelines(jsonWrapper(x,y,skins[skinIndex]))
 
-    # Metas showcase
-    yList = [50,53]
-    xRange = [16,54]
+    # Metas and Mutation showcase
+    comb = metas+mutations
+    yList = [50,53,56]
+    xRange = [2,62]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):
         for i in range(nInLine):
-            metaIndex = j*nInLine+i
-            if metaIndex < len(metas):
+            combIndex = j*nInLine+i
+            if combIndex < len(comb):
                 x = xRange[0]+i*2+1
                 y = yList[j]
-                f.writelines(jsonWrapperLoot(x,y,metas[metaIndex]))
+                if comb[combIndex] in metas:
+                    # Runes
+                    f.writelines(jsonWrapperLoot(x,y,comb[combIndex]))
+                else:
+                    # Mutations
+                    f.writelines(jsonWrapper(x,y,comb[combIndex]))
    
     f.writelines(tail)
 
