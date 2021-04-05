@@ -684,10 +684,42 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "DualBow"
+      "item": "Tombstone"
     },
     {
       "x": 23,
+      "y": 38,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "HeavyAxe"
+    },
+    {
+      "x": 25,
+      "y": 38,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "Club"
+    },
+    {
+      "x": 27,
+      "y": 38,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "ClubBroken"
+    },
+    {
+      "x": 29,
+      "y": 38,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "DualBow"
+    },
+    {
+      "x": 31,
       "y": 38,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -695,7 +727,7 @@
       "item": "InfiniteBow"
     },
     {
-      "x": 25,
+      "x": 33,
       "y": 38,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -703,39 +735,39 @@
       "item": "LongBow"
     },
     {
-      "x": 27,
-      "y": 38,
+      "x": 3,
+      "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
       "item": "SonicCrossbow"
     },
     {
-      "x": 29,
-      "y": 38,
+      "x": 5,
+      "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
       "item": "CloseCombatBow"
     },
     {
-      "x": 31,
-      "y": 38,
+      "x": 7,
+      "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
       "item": "FastBow"
     },
     {
-      "x": 33,
-      "y": 38,
+      "x": 9,
+      "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
       "item": "FrostBow"
     },
     {
-      "x": 3,
+      "x": 11,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -743,7 +775,7 @@
       "item": "CrossBow"
     },
     {
-      "x": 5,
+      "x": 13,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -751,7 +783,7 @@
       "item": "MultiCrossBow"
     },
     {
-      "x": 7,
+      "x": 15,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -759,7 +791,7 @@
       "item": "FrostCrossBow"
     },
     {
-      "x": 9,
+      "x": 17,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -767,7 +799,7 @@
       "item": "ExplosiveCrossBow"
     },
     {
-      "x": 11,
+      "x": 19,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -775,7 +807,7 @@
       "item": "AlchemicGun"
     },
     {
-      "x": 13,
+      "x": 21,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -783,7 +815,7 @@
       "item": "Boomerang"
     },
     {
-      "x": 15,
+      "x": 23,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -791,7 +823,7 @@
       "item": "BleedAxe"
     },
     {
-      "x": 17,
+      "x": 25,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -799,7 +831,7 @@
       "item": "GodAxe"
     },
     {
-      "x": 19,
+      "x": 27,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -807,7 +839,7 @@
       "item": "ThrowingSpear"
     },
     {
-      "x": 21,
+      "x": 29,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -815,7 +847,7 @@
       "item": "MarkBow"
     },
     {
-      "x": 23,
+      "x": 31,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -823,7 +855,7 @@
       "item": "PreciseBow"
     },
     {
-      "x": 25,
+      "x": 33,
       "y": 41,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -831,44 +863,12 @@
       "item": "ThrowingKnife"
     },
     {
-      "x": 27,
-      "y": 41,
-      "marker": "FixedBlueprint",
-      "width": 1,
-      "height": 1,
-      "item": "LightningWhip"
-    },
-    {
-      "x": 29,
-      "y": 41,
-      "marker": "FixedBlueprint",
-      "width": 1,
-      "height": 1,
-      "item": "ThrowingTorch"
-    },
-    {
-      "x": 31,
-      "y": 41,
-      "marker": "FixedBlueprint",
-      "width": 1,
-      "height": 1,
-      "item": "ThrowingIce"
-    },
-    {
-      "x": 33,
-      "y": 41,
-      "marker": "FixedBlueprint",
-      "width": 1,
-      "height": 1,
-      "item": "FireBall"
-    },
-    {
       "x": 3,
       "y": 44,
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "Lightning"
+      "item": "LightningWhip"
     },
     {
       "x": 5,
@@ -876,7 +876,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "FlameThrower"
+      "item": "ThrowingTorch"
     },
     {
       "x": 7,
@@ -884,7 +884,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "Freeze"
+      "item": "ThrowingIce"
     },
     {
       "x": 9,
@@ -892,7 +892,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "MagicSalve"
+      "item": "FireBall"
     },
     {
       "x": 11,
@@ -900,7 +900,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "Blowgun"
+      "item": "Lightning"
     },
     {
       "x": 13,
@@ -908,7 +908,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "BarrelLauncher"
+      "item": "FlameThrower"
     },
     {
       "x": 15,
@@ -916,7 +916,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "WarriorShield"
+      "item": "Freeze"
     },
     {
       "x": 17,
@@ -924,7 +924,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "Shield"
+      "item": "MagicSalve"
     },
     {
       "x": 19,
@@ -932,7 +932,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "AreaShield"
+      "item": "Blowgun"
     },
     {
       "x": 21,
@@ -940,7 +940,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "BumpShield"
+      "item": "BarrelLauncher"
     },
     {
       "x": 23,
@@ -948,7 +948,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "Rampart"
+      "item": "WarriorShield"
     },
     {
       "x": 25,
@@ -956,7 +956,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "DashShield"
+      "item": "Shield"
     },
     {
       "x": 27,
@@ -964,7 +964,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "BloodShield"
+      "item": "AreaShield"
     },
     {
       "x": 29,
@@ -972,7 +972,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "GreedShield"
+      "item": "BumpShield"
     },
     {
       "x": 31,
@@ -980,7 +980,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "SpikeShield"
+      "item": "Rampart"
     },
     {
       "x": 33,
@@ -988,7 +988,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "ParryShield"
+      "item": "DashShield"
     },
     {
       "x": 3,
@@ -996,7 +996,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "HoldShield"
+      "item": "BloodShield"
     },
     {
       "x": 5,
@@ -1004,10 +1004,42 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "ThunderShield"
+      "item": "GreedShield"
     },
     {
       "x": 7,
+      "y": 47,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "SpikeShield"
+    },
+    {
+      "x": 9,
+      "y": 47,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "ParryShield"
+    },
+    {
+      "x": 11,
+      "y": 47,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "HoldShield"
+    },
+    {
+      "x": 13,
+      "y": 47,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "ThunderShield"
+    },
+    {
+      "x": 15,
       "y": 47,
       "marker": "FixedBlueprint",
       "width": 1,
@@ -2452,7 +2484,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_ScaledHealth"
+      "item": "P_DodgeHeal"
     },
     {
       "x": 19,
@@ -2460,7 +2492,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_DeathShield"
+      "item": "P_SpeedHeal"
     },
     {
       "x": 21,
@@ -2468,7 +2500,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_DodgeHeal"
+      "item": "P_DmgSkl"
     },
     {
       "x": 23,
@@ -2476,7 +2508,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_SpeedHeal"
+      "item": "P_CooldownGrenade"
     },
     {
       "x": 25,
@@ -2484,7 +2516,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_CooldownGrenade"
+      "item": "P_DmgFirstHit"
     },
     {
       "x": 27,
@@ -2492,7 +2524,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Cooldown"
+      "item": "P_InvisibilityOnKill"
     },
     {
       "x": 29,
@@ -2500,7 +2532,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_CDR_Distance"
+      "item": "P_Backpack_Melee"
     },
     {
       "x": 31,
@@ -2548,7 +2580,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_DmgSkl"
+      "item": "P_DmgPlantedArrow"
     },
     {
       "x": 43,
@@ -2556,7 +2588,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_DmgFirstHit"
+      "item": "P_DmgNearRanged"
     },
     {
       "x": 45,
@@ -2564,7 +2596,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_InvisibilityOnKill"
+      "item": "P_Cooldown"
     },
     {
       "x": 47,
@@ -2596,7 +2628,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_CDR_Parry"
+      "item": "P_CDR_Distance"
     },
     {
       "x": 55,
@@ -2604,7 +2636,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_DmgParry"
+      "item": "P_Backpack_Ranged"
     },
     {
       "x": 57,
@@ -2612,7 +2644,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_HealOnParry"
+      "item": "P_ScaledHealth"
     },
     {
       "x": 59,
@@ -2620,7 +2652,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_HealOnKill"
+      "item": "P_DeathShield"
     },
     {
       "x": 61,
@@ -2628,7 +2660,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Hot"
+      "item": "P_CDR_Parry"
     },
     {
       "x": 3,
@@ -2636,7 +2668,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Food"
+      "item": "P_DmgParry"
     },
     {
       "x": 5,
@@ -2644,7 +2676,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_SuperParry"
+      "item": "P_HealOnParry"
     },
     {
       "x": 7,
@@ -2652,7 +2684,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_ColdDmg"
+      "item": "P_HealOnKill"
     },
     {
       "x": 9,
@@ -2660,7 +2692,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_CDR_locked"
+      "item": "P_Hot"
     },
     {
       "x": 11,
@@ -2668,7 +2700,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_CDR_Crit"
+      "item": "P_Food"
     },
     {
       "x": 13,
@@ -2676,7 +2708,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Ammo"
+      "item": "P_SuperParry"
     },
     {
       "x": 15,
@@ -2684,7 +2716,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Yolo"
+      "item": "P_ColdDmg"
     },
     {
       "x": 17,
@@ -2692,7 +2724,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_YoloDepleted"
+      "item": "P_CDR_locked"
     },
     {
       "x": 19,
@@ -2700,7 +2732,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Rally"
+      "item": "P_AttackSpeed_Combo"
     },
     {
       "x": 21,
@@ -2708,7 +2740,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_QuickHeal"
+      "item": "P_Backpack_Shield"
     },
     {
       "x": 23,
@@ -2716,7 +2748,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_SpeedBuff"
+      "item": "P_Yolo"
     },
     {
       "x": 25,
@@ -2724,7 +2756,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Health"
+      "item": "P_YoloDepleted"
     },
     {
       "x": 27,
@@ -2732,7 +2764,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Curse"
+      "item": "P_Rally"
     },
     {
       "x": 29,
@@ -2740,7 +2772,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_EasierCurse"
+      "item": "P_QuickHeal"
     },
     {
       "x": 31,
@@ -2748,7 +2780,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Traps"
+      "item": "P_SpeedBuff"
     },
     {
       "x": 33,
@@ -2756,7 +2788,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Disengage"
+      "item": "P_Health"
     },
     {
       "x": 35,
@@ -2764,7 +2796,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_AttackSpeed_Combo"
+      "item": "P_Curse"
     },
     {
       "x": 37,
@@ -2772,7 +2804,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Backpack_Melee"
+      "item": "P_EasierCurse"
     },
     {
       "x": 39,
@@ -2780,7 +2812,7 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Backpack_Ranged"
+      "item": "P_Traps"
     },
     {
       "x": 41,
@@ -2788,7 +2820,31 @@
       "marker": "FixedBlueprint",
       "width": 1,
       "height": 1,
-      "item": "P_Backpack_Shield"
+      "item": "P_Disengage"
+    },
+    {
+      "x": 43,
+      "y": 56,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "P_Execute_LowHealth"
+    },
+    {
+      "x": 45,
+      "y": 56,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "P_CDR_Crit"
+    },
+    {
+      "x": 47,
+      "y": 56,
+      "marker": "FixedBlueprint",
+      "width": 1,
+      "height": 1,
+      "item": "P_Ammo"
     },
   ],
   "type": "FlaskRoom",
