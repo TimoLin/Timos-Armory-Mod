@@ -121,8 +121,9 @@ def main():
     for item in melee+ranged+shield:
         if "OffHand" not in item: # For some Bows
             if "theRight" not in item: # For some weapons with two hands
-                if item not in weapons:
-                    weapons.append(item)
+                if "Broken" not in item: # For some two status weapons
+                    if item not in weapons:
+                        weapons.append(item)
     sizeOfWeapons = len(weapons)
 
     skills = []
