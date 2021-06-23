@@ -12,8 +12,16 @@ def jsonWrapper(x,y,item):
             '    },\n'
     return (line)
 
+def xmlWrapper(id, x,y,item):
+    line = '<object id="'+ str(id)+'" name="Timo" type="FixedLoot" x="'+str(x*24)+'" y="'+str(y*24)+'" width="24" height="24">\n'
+    line +='  <properties>\n'
+    line +='    <property name="item" value="'+str(item)+'"/>\n'
+    line +='  </properties>\n'
+    line +=' </object>\n'
+    return (line)
+
 def main():
-    itemDir = "./ExpandedCDB/item/"
+    itemDir = "./ExpandedCDB-BP/item/"
     # 1. Melee items
     melee = []
     for item in os.listdir(itemDir+"/Melee"):
@@ -48,29 +56,43 @@ def main():
         power.append(item[6:item.index(".")])
     
     # Read base room file
-    f = open('src/PrisonFlaskRoom.json','r')
+    f = open('src/PrisonFlaskRoom.tmx','r')
     lines = f.readlines()
     f.close()
 
     # Create new room file
-    f = open("0573---PrisonFlaskRoom.json",'w')
-    for n, line in enumerate(lines):
-        if "]," in line:
-            lines[n-1] = "    },\n"
-            header = lines[0:n]
-            tail = lines[n:]
-            break
-    f.writelines(header)
+    f = open('PrisonFlaskRoom-Armory.tmx','w')
+    f.writelines(lines[:-2])
+
+    # Get start id
+    for line in lines:
+        if "object id" in line:
+            id = int(line.split('"')[1])+1
+    
+    print("Start id:", id)
 
     # Generate Armory list
-    sizeOfWeapons = len(melee)+len(ranged)+len(shield)
-    weapons = melee+ranged+shield
-    sizeOfSkills  = len(trap)+len(grenade)+len(power)
-    skills = trap+grenade+power
+    # Remove duplicates
+    # Mostly it's the other status of the weapon
+    weapons = []
+    duplicates = ["OffHand", "theRight", "Broken"]
+    for item in melee+ranged+shield:
+        flag = any(key in item for key in duplicates)
+        if (not flag):
+            weapons.append(item)
+    sizeOfWeapons = len(weapons)
+
+    skills = []
+    for item in trap+grenade+power:
+        if item not in ["ExplodeFriendlyHardy","FlyingSwordCallback","OwlUp","BackDash"]:
+            skills.append(item)
+
+    sizeOfSkills  = len(skills)
+
     print("Found weapons: {0} and skills: {1}".format(sizeOfWeapons,sizeOfSkills))
 
     # Armory showcase at y direction
-    yList = [32,35,38,41,44,47]
+    yList = [33,36,39,42,45,48]
 
     # Weapons showcase
     xRange = [2,34]
@@ -81,11 +103,12 @@ def main():
             if weaponIndex < sizeOfWeapons:
                 x = xRange[0]+i*2+1
                 y = yList[j]
-                f.writelines(jsonWrapper(x,y,weapons[weaponIndex]))
+                f.writelines(xmlWrapper(id,x,y,weapons[weaponIndex]))
+                id += 1
 
     # Skills showcase 1
-    yList = [35,38,41,44,47]
-    xRange = [36,62]
+    yList = [36,39,42,45,48]
+    xRange = [36,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):
         for i in range(nInLine):
@@ -93,14 +116,15 @@ def main():
             if skillIndex < sizeOfSkills:
                 x = xRange[0]+i*2+1
                 y = yList[j]
-                f.writelines(jsonWrapper(x,y,skills[skillIndex]))
+                f.writelines(xmlWrapper(id,x,y,skills[skillIndex]))
+                id += 1
 
-    f.writelines(tail)
+    f.writelines(lines[-2:])
 
     f.close()
 
     # Copy file to ExtendedCDB
-    os.system("cp 0573---PrisonFlaskRoom.json ./ExpandedCDB/room/Prison/0573---PrisonFlaskRoom.json")
+    os.system("cp PrisonFlaskRoom-Armory.tmx ./res/tiled/tmx/Prison/PrisonFlaskRoom.tmx")
 
     print("Done!")
 
