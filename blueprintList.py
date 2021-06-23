@@ -128,7 +128,7 @@ def main():
 
     skills = []
     for item in trap+grenade+power:
-        if "Up" not in item:
+        if item not in ["ExplodeFriendlyHardy","FlyingSwordCallback","OwlUp","BackDash"]:
             skills.append(item)
     sizeOfSkills  = len(skills)
 
