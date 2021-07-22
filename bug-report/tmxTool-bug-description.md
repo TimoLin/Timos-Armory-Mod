@@ -32,7 +32,7 @@ Changes that I made: Add a blueprint to the left of `NPC` somewhere (Using `Mark
 ![Modify the PrisonFlaskRoom.tmx](./tiled.PNG)
 
 ## 2.4 Generate the tmx binary files using `TmxTool.exe`
-Destination folder: `res\tiled\tmx`
+Destination folder: `res\tiled\tmx`  
 (1) First try:
 ```PowerShell
 &'D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\TmxTool\TmxTool.exe' -Collapse -TmxBin .\res\tiled\tmx\ -TmxXml .\bp-tmx\
@@ -40,12 +40,13 @@ Destination folder: `res\tiled\tmx`
 It thorws an error:  
 ![tsx error](./error1.png)
 
-Solution: Copy `col.tsx` and `lnk.tsx` to folder `bp-tmx`.
+Solution: Copy `col.tsx` and `lnk.tsx` to folder `bp-tmx`.  
 (2) Second try:
 ```PowerShell
 &'D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\TmxTool\TmxTool.exe' -Collapse -TmxBin .\res\tiled\tmx\ -TmxXml .\bp-tmx\
 ```
-It throws the `Access violation ` error:
+It throws the `Access violation ` error.
+Command output:
 ```
 Access violation
 Called from haxe.xml._Access.$NodeAccess_Impl_.resolve (D:\Projects\DeadCells\client\.tools\haxe\std/haxe/xml/Access.hx line 28)
@@ -56,6 +57,6 @@ Called from tiled.TmxToolApp.convertToBTMX (tiled/TmxToolApp.hx line 134)
 Called from tiled.TmxToolApp.run (tiled/TmxToolApp.hx line 42)
 Called from tiled.$TmxToolApp.main (tiled/TmxToolApp.hx line 19)
 ```
-![Access violation](error2.png)
+![Access violation](error2.png)  
 
 
