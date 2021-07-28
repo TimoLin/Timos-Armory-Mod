@@ -124,7 +124,7 @@ def main():
     f.close()
 
     # Copy file to ExtendedCDB
-    os.system("cp PrisonFlaskRoom-Armory.tmx ./res/tiled/tmx/Prison/PrisonFlaskRoom.tmx")
+    os.system("cp PrisonFlaskRoom-Armory.tmx ./armory-tmx/tmx/Prison/PrisonFlaskRoom.tmx")
 
     print("Done!")
 

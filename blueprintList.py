@@ -213,7 +213,7 @@ def main():
     f.close()
 
     # Copy file to ExtendedCDB
-    os.system("cp PrisonFlaskRoom-BP-Mod.tmx ./res/tiled/tmx/Prison/PrisonFlaskRoom.tmx ")
+    os.system("cp PrisonFlaskRoom-BP-Mod.tmx ./bp-tmx/tmx/Prison/PrisonFlaskRoom.tmx")
 
     print("Done!")
 
