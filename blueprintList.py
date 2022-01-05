@@ -142,7 +142,7 @@ def main():
     print("      Metas  : {0}".format(sizeOfMetas))
 
     # Armory showcase at y direction
-    yList = [33,36,39,42,45,48]
+    yList = [41,44,47,50,53,56]
 
     # Weapons showcase
     xRange = [2,34]
@@ -158,7 +158,8 @@ def main():
                 id += 1
 
     # Skills showcase 1
-    yList = [36,39,42,45,48]
+    yList = [41,44,47,50,53]
+
     xRange = [36,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):
@@ -187,7 +188,7 @@ def main():
 
     # Metas and Mutation showcase
     comb = metas+mutations
-    yList = [51,54,57]
+    yList = [59,62,65]
     xRange = [2,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):

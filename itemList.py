@@ -92,7 +92,7 @@ def main():
     print("Found weapons: {0} and skills: {1}".format(sizeOfWeapons,sizeOfSkills))
 
     # Armory showcase at y direction
-    yList = [33,36,39,42,45,48]
+    yList = [41,44,47,50,53,56]
 
     # Weapons showcase
     xRange = [2,34]
@@ -107,7 +107,7 @@ def main():
                 id += 1
 
     # Skills showcase 1
-    yList = [36,39,42,45,48]
+    yList = [41,44,47,50,53]
     xRange = [36,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):
