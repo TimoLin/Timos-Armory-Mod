@@ -8,29 +8,36 @@ Timo's Armory Mod
 2. Update weapons. Now it provide weapons of all 3 DLCs (Rise of the Giant, Fatal Falls, The Bad Seed).    
 3. Add a python script to get weapon list and create the room file automatically.  
 
+## File Description
+|File|Language|Description|
+|:-|:-:|:-|
+|preStep.ps1|Powershell|Pre-steps that unpack Dead Cells resource packages|
+|itemList.py|Python|Extract items to create armory mod files|
+|packArmory.ps1|Powershell|Pack Timo's armory mod|
+|blueprintList.py|Python|Extract blueprints to create bp mod files|
+|packBlueprints.ps1|Powershell|Pack Timo's blueprints mod|
+
 ## How to create your own Armory Mod  
-### 1. Unpack "res.pak"    
+Say `Dead Cells` is installed under `D:\Program Files (x86)\Steam\steamapps\common\Dead Cells`.
+
+### 1. Prepare game resource files
 ```powershell
-& 'D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\PAKTool.exe' -Expand -OutDir Expanded -RefPak "D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\res.pak"
+.\preStep.ps1
 ```
-### 2. Unpack CDB  
-```powershell
-& 'D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\CDBTool.exe' -Expand -Outdir .\ExpandedCDB -refcdb ".\Expanded\data.cdb"
-```
-### 3. Use "RoomEditor" to Modify "PrisonFlaskRoom"  
+
+### 2. Use `Tiled` to customize `PrisonFlaskRoom` 
 Follow the guide at "Steam\steamapps\common\Dead Cells\ModTools\ModsDoc.pdf".  
 
-### 4. Use "itemList.py" to get weapons and skills names in the game.  
+Save as the `PrisonFlaskRoom.tmx` to `src\PrisonFlaskRoom.tmx`
+
+### 3. Use "itemList.py" to get weapons and skills names in the game.  
 ```shell
 python3 itemList.py
 ```
-This will generate starter room file named "0573---PrisonFlaskRoom.json" and copy it to "ExpandedCDB".
+This will generate starter room file named "PrisonFlaskRoom.tmx" and copy it back to `armory-tmx`.  
 
-### 5. Collapse cdb file  
+### 4. Collapse tmx files to binary and Create Mod file.
 ```powershell
-& 'D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\CDBTool.exe' -Collapse -Indir .\ExpandedCDB\ -OutCDB ".\Expanded\data.cdb"
+.\packArmory.ps1
 ```
-### 6. Create mod file  
-```powershell
- &  'D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\ModTools\PAKTool.exe' -creatediffpak -refpak "D:\Program Files (x86)\Steam\steamapps\common\Dead Cells\res.pak" -indir "D:\Timo\Games\Timos-armory-mod\Expanded\" -OutPak "D:\Timo\Games\Timos-armory-mod\workshop\res.pak"
-```
+The mod file is under `workshop\Armory` folder.
