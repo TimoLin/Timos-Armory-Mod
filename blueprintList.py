@@ -1,45 +1,13 @@
 import sys
 import os
 
-def jsonWrapper(x,y,item):
-    line =  '    {\n'+\
-            '      "x": '+str(x)+',\n' + \
-            '      "y": '+str(y)+',\n' + \
-            '      "marker": "FixedBlueprint",\n' +\
-            '      "width": 1,\n'+\
-            '      "height": 1,\n'+\
-            '      "item": "'+item+'"\n' + \
-            '    },\n'
-    return (line)
-
-def jsonWrapperLoot(x,y,item):
-    line =  '    {\n'+\
-            '      "x": '+str(x)+',\n' + \
-            '      "y": '+str(y)+',\n' + \
-            '      "marker": "FixedLoot",\n' +\
-            '      "width": 1,\n'+\
-            '      "height": 1,\n'+\
-            '      "item": "'+item+'"\n' + \
-            '    },\n'
-    return (line)
-
-def xmlWrapperBP(id, x,y,item):
-    line = '<object id="'+ str(id)+'" name="Timo" type="FixedBlueprint" x="'+str(x*24)+'" y="'+str(y*24)+'" width="24" height="24">\n'
-    line +='  <properties>\n'
-    line +='    <property name="item" value="'+str(item)+'"/>\n'
-    line +='  </properties>\n'
-    line +=' </object>\n'
-    return (line)
-
-def xmlWrapperLoot(id, x,y,item):
-    line = '<object id="'+ str(id)+'" name="Timo" type="FixedLoot" x="'+str(x*24)+'" y="'+str(y*24)+'" width="24" height="24">\n'
-    line +='  <properties>\n'
-    line +='    <property name="item" value="'+str(item)+'"/>\n'
-    line +='  </properties>\n'
-    line +=' </object>\n'
-    return (line)
+from library import *
 
 def main():
+
+    # Read dlc dict
+    dlcs, dlcDict = itemsDLC()
+
     itemDir = "./ExpandedCDB-BP/item/"
     # 1. Melee items
     melee = []
@@ -122,24 +90,35 @@ def main():
         if "OffHand" not in item: # For some Bows
             if "theRight" not in item: # For some weapons with two hands
                 if "Broken" not in item: # For some two status weapons
-                    if item not in weapons:
+                    if item not in weapons and item not in dlcDict[-1]:
+                        # Item in the latest DLC is not included here
                         weapons.append(item)
     sizeOfWeapons = len(weapons)
 
     skills = []
     for item in trap+grenade+power:
         if item not in ["ExplodeFriendlyHardy","FlyingSwordCallback","OwlUp","BackDash"]:
-            skills.append(item)
+            if item not in dlcDict[-1]: 
+                # Item in the latest DLC is not included here
+                skills.append(item)
     sizeOfSkills  = len(skills)
 
+    temp = skins
+    skins = []
+    for item in temp:
+        if item not in dlcDict[-1]:
+            # Item in the latest DLC is not included here
+            skins.append(item)
     sizeOfSkins  = len(skins)
-
+    
     sizeOfMetas  = len(metas)
 
     print("Found Weapons: {0}".format(sizeOfWeapons))
     print("      Skills : {0}".format(sizeOfSkills))
     print("      Skins  : {0}".format(sizeOfSkins))
     print("      Metas  : {0}".format(sizeOfMetas))
+
+    print (len(dlcDict[0]),len(dlcDict[1]),len(dlcDict[2]))
 
     # Armory showcase at y direction
     yList = [41,44,47,50,53,56]
@@ -207,6 +186,19 @@ def main():
                     #f.writelines(jsonWrapper(x,y,comb[combIndex]))
                     f.writelines(xmlWrapperBP(id,x,y,comb[combIndex]))
                     id += 1
+
+    # New dlc items showcase
+    yList = [68,71]
+    xRange = [3,46]
+    nInLine = int((xRange[-1]-xRange[0])/2)
+    for j in range(len(yList)):
+        for i in range(nInLine):
+            itemIndex = j*nInLine+i
+            if itemIndex < len(dlcDict[-1]):
+                x = xRange[0]+i*2+1
+                y = yList[j]
+                f.writelines(xmlWrapperBP(id,x,y,dlcDict[-1][itemIndex]))
+                id += 1
    
     tail = lines[-2:]
     f.writelines(tail)

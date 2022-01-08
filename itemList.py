@@ -1,24 +1,7 @@
 import sys
 import os
 
-def jsonWrapper(x,y,item):
-    line =  '    {\n'+\
-            '      "x": '+str(x)+',\n' + \
-            '      "y": '+str(y)+',\n' + \
-            '      "marker": "FixedLoot",\n' +\
-            '      "width": 1,\n'+\
-            '      "height": 1,\n'+\
-            '      "item": "'+item+'"\n' + \
-            '    },\n'
-    return (line)
-
-def xmlWrapper(id, x,y,item):
-    line = '<object id="'+ str(id)+'" name="Timo" type="FixedLoot" x="'+str(x*24)+'" y="'+str(y*24)+'" width="24" height="24">\n'
-    line +='  <properties>\n'
-    line +='    <property name="item" value="'+str(item)+'"/>\n'
-    line +='  </properties>\n'
-    line +=' </object>\n'
-    return (line)
+from library import *
 
 def main():
     itemDir = "./ExpandedCDB-BP/item/"
@@ -92,7 +75,7 @@ def main():
     print("Found weapons: {0} and skills: {1}".format(sizeOfWeapons,sizeOfSkills))
 
     # Armory showcase at y direction
-    yList = [41,44,47,50,53,56]
+    yList = [41,44,47,50,53,56, 59]
 
     # Weapons showcase
     xRange = [2,34]
