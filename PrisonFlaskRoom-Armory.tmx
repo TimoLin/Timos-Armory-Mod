@@ -799,530 +799,550 @@
  </object>
 <object id="65" name="Timo" type="FixedLoot" x="360" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="DualBow"/>
+    <property name="item" value="CupidityDagger"/>
   </properties>
  </object>
 <object id="66" name="Timo" type="FixedLoot" x="408" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="InfiniteBow"/>
+    <property name="item" value="GoldDigger"/>
   </properties>
  </object>
 <object id="67" name="Timo" type="FixedLoot" x="456" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="LongBow"/>
+    <property name="item" value="GoldDiggerEvolved"/>
   </properties>
  </object>
 <object id="68" name="Timo" type="FixedLoot" x="504" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="SonicCrossbow"/>
+    <property name="item" value="DualBow"/>
   </properties>
  </object>
 <object id="69" name="Timo" type="FixedLoot" x="552" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="CloseCombatBow"/>
+    <property name="item" value="InfiniteBow"/>
   </properties>
  </object>
 <object id="70" name="Timo" type="FixedLoot" x="600" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="FastBow"/>
+    <property name="item" value="LongBow"/>
   </properties>
  </object>
 <object id="71" name="Timo" type="FixedLoot" x="648" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="FrostBow"/>
+    <property name="item" value="SonicCrossbow"/>
   </properties>
  </object>
 <object id="72" name="Timo" type="FixedLoot" x="696" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="CrossBow"/>
+    <property name="item" value="CloseCombatBow"/>
   </properties>
  </object>
 <object id="73" name="Timo" type="FixedLoot" x="744" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="MultiCrossBow"/>
+    <property name="item" value="FastBow"/>
   </properties>
  </object>
 <object id="74" name="Timo" type="FixedLoot" x="792" y="1200" width="24" height="24">
   <properties>
-    <property name="item" value="FrostCrossBow"/>
+    <property name="item" value="FrostBow"/>
   </properties>
  </object>
 <object id="75" name="Timo" type="FixedLoot" x="72" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="ExplosiveCrossBow"/>
+    <property name="item" value="CrossBow"/>
   </properties>
  </object>
 <object id="76" name="Timo" type="FixedLoot" x="120" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="AlchemicGun"/>
+    <property name="item" value="MultiCrossBow"/>
   </properties>
  </object>
 <object id="77" name="Timo" type="FixedLoot" x="168" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="Boomerang"/>
+    <property name="item" value="FrostCrossBow"/>
   </properties>
  </object>
 <object id="78" name="Timo" type="FixedLoot" x="216" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="BleedAxe"/>
+    <property name="item" value="ExplosiveCrossBow"/>
   </properties>
  </object>
 <object id="79" name="Timo" type="FixedLoot" x="264" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="GodAxe"/>
+    <property name="item" value="AlchemicGun"/>
   </properties>
  </object>
 <object id="80" name="Timo" type="FixedLoot" x="312" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="ThrowingSpear"/>
+    <property name="item" value="Boomerang"/>
   </properties>
  </object>
 <object id="81" name="Timo" type="FixedLoot" x="360" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="MarkBow"/>
+    <property name="item" value="BleedAxe"/>
   </properties>
  </object>
 <object id="82" name="Timo" type="FixedLoot" x="408" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="PreciseBow"/>
+    <property name="item" value="GodAxe"/>
   </properties>
  </object>
 <object id="83" name="Timo" type="FixedLoot" x="456" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="ThrowingKnife"/>
+    <property name="item" value="ThrowingSpear"/>
   </properties>
  </object>
 <object id="84" name="Timo" type="FixedLoot" x="504" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="LightningWhip"/>
+    <property name="item" value="MarkBow"/>
   </properties>
  </object>
 <object id="85" name="Timo" type="FixedLoot" x="552" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="ThrowingTorch"/>
+    <property name="item" value="PreciseBow"/>
   </properties>
  </object>
 <object id="86" name="Timo" type="FixedLoot" x="600" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="ThrowingIce"/>
+    <property name="item" value="ThrowingKnife"/>
   </properties>
  </object>
 <object id="87" name="Timo" type="FixedLoot" x="648" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="FireBall"/>
+    <property name="item" value="LightningWhip"/>
   </properties>
  </object>
 <object id="88" name="Timo" type="FixedLoot" x="696" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="Lightning"/>
+    <property name="item" value="ThrowingTorch"/>
   </properties>
  </object>
 <object id="89" name="Timo" type="FixedLoot" x="744" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="FlameThrower"/>
+    <property name="item" value="ThrowingIce"/>
   </properties>
  </object>
 <object id="90" name="Timo" type="FixedLoot" x="792" y="1272" width="24" height="24">
   <properties>
-    <property name="item" value="Freeze"/>
+    <property name="item" value="FireBall"/>
   </properties>
  </object>
 <object id="91" name="Timo" type="FixedLoot" x="72" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="MagicSalve"/>
+    <property name="item" value="Lightning"/>
   </properties>
  </object>
 <object id="92" name="Timo" type="FixedLoot" x="120" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="Blowgun"/>
+    <property name="item" value="FlameThrower"/>
   </properties>
  </object>
 <object id="93" name="Timo" type="FixedLoot" x="168" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="BarrelLauncher"/>
+    <property name="item" value="Freeze"/>
   </properties>
  </object>
 <object id="94" name="Timo" type="FixedLoot" x="216" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="HardLightGun"/>
+    <property name="item" value="MagicSalve"/>
   </properties>
  </object>
 <object id="95" name="Timo" type="FixedLoot" x="264" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="ThrowingCards"/>
+    <property name="item" value="Blowgun"/>
   </properties>
  </object>
 <object id="96" name="Timo" type="FixedLoot" x="312" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="HeavyBow"/>
+    <property name="item" value="BarrelLauncher"/>
   </properties>
  </object>
 <object id="97" name="Timo" type="FixedLoot" x="360" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="WarriorShield"/>
+    <property name="item" value="HardLightGun"/>
   </properties>
  </object>
 <object id="98" name="Timo" type="FixedLoot" x="408" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="Shield"/>
+    <property name="item" value="ThrowingCards"/>
   </properties>
  </object>
 <object id="99" name="Timo" type="FixedLoot" x="456" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="AreaShield"/>
+    <property name="item" value="HeavyBow"/>
   </properties>
  </object>
 <object id="100" name="Timo" type="FixedLoot" x="504" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="BumpShield"/>
+    <property name="item" value="MoneyShooter"/>
   </properties>
  </object>
 <object id="101" name="Timo" type="FixedLoot" x="552" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="Rampart"/>
+    <property name="item" value="WarriorShield"/>
   </properties>
  </object>
 <object id="102" name="Timo" type="FixedLoot" x="600" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="DashShield"/>
+    <property name="item" value="Shield"/>
   </properties>
  </object>
 <object id="103" name="Timo" type="FixedLoot" x="648" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="BloodShield"/>
+    <property name="item" value="AreaShield"/>
   </properties>
  </object>
 <object id="104" name="Timo" type="FixedLoot" x="696" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="GreedShield"/>
+    <property name="item" value="BumpShield"/>
   </properties>
  </object>
 <object id="105" name="Timo" type="FixedLoot" x="744" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="SpikeShield"/>
+    <property name="item" value="Rampart"/>
   </properties>
  </object>
 <object id="106" name="Timo" type="FixedLoot" x="792" y="1344" width="24" height="24">
   <properties>
-    <property name="item" value="ParryShield"/>
+    <property name="item" value="DashShield"/>
   </properties>
  </object>
 <object id="107" name="Timo" type="FixedLoot" x="72" y="1416" width="24" height="24">
   <properties>
-    <property name="item" value="HoldShield"/>
+    <property name="item" value="BloodShield"/>
   </properties>
  </object>
 <object id="108" name="Timo" type="FixedLoot" x="120" y="1416" width="24" height="24">
   <properties>
-    <property name="item" value="ThunderShield"/>
+    <property name="item" value="GreedShield"/>
   </properties>
  </object>
 <object id="109" name="Timo" type="FixedLoot" x="168" y="1416" width="24" height="24">
   <properties>
+    <property name="item" value="SpikeShield"/>
+  </properties>
+ </object>
+<object id="110" name="Timo" type="FixedLoot" x="216" y="1416" width="24" height="24">
+  <properties>
+    <property name="item" value="ParryShield"/>
+  </properties>
+ </object>
+<object id="111" name="Timo" type="FixedLoot" x="264" y="1416" width="24" height="24">
+  <properties>
+    <property name="item" value="HoldShield"/>
+  </properties>
+ </object>
+<object id="112" name="Timo" type="FixedLoot" x="312" y="1416" width="24" height="24">
+  <properties>
+    <property name="item" value="ThunderShield"/>
+  </properties>
+ </object>
+<object id="113" name="Timo" type="FixedLoot" x="360" y="1416" width="24" height="24">
+  <properties>
     <property name="item" value="IceShield"/>
   </properties>
  </object>
-<object id="110" name="Timo" type="FixedLoot" x="888" y="984" width="24" height="24">
+<object id="114" name="Timo" type="FixedLoot" x="888" y="984" width="24" height="24">
   <properties>
     <property name="item" value="HorizontalTurret"/>
   </properties>
  </object>
-<object id="111" name="Timo" type="FixedLoot" x="936" y="984" width="24" height="24">
+<object id="115" name="Timo" type="FixedLoot" x="936" y="984" width="24" height="24">
   <properties>
     <property name="item" value="StandardTurret"/>
   </properties>
  </object>
-<object id="112" name="Timo" type="FixedLoot" x="984" y="984" width="24" height="24">
+<object id="116" name="Timo" type="FixedLoot" x="984" y="984" width="24" height="24">
   <properties>
     <property name="item" value="HeavyTurret"/>
   </properties>
  </object>
-<object id="113" name="Timo" type="FixedLoot" x="1032" y="984" width="24" height="24">
+<object id="117" name="Timo" type="FixedLoot" x="1032" y="984" width="24" height="24">
   <properties>
     <property name="item" value="CeilTurret"/>
   </properties>
  </object>
-<object id="114" name="Timo" type="FixedLoot" x="1080" y="984" width="24" height="24">
+<object id="118" name="Timo" type="FixedLoot" x="1080" y="984" width="24" height="24">
   <properties>
     <property name="item" value="FireTurret"/>
   </properties>
  </object>
-<object id="115" name="Timo" type="FixedLoot" x="1128" y="984" width="24" height="24">
+<object id="119" name="Timo" type="FixedLoot" x="1128" y="984" width="24" height="24">
   <properties>
     <property name="item" value="GroundSaw"/>
   </properties>
  </object>
-<object id="116" name="Timo" type="FixedLoot" x="1176" y="984" width="24" height="24">
+<object id="120" name="Timo" type="FixedLoot" x="1176" y="984" width="24" height="24">
   <properties>
     <property name="item" value="RootTrap"/>
   </properties>
  </object>
-<object id="117" name="Timo" type="FixedLoot" x="1224" y="984" width="24" height="24">
+<object id="121" name="Timo" type="FixedLoot" x="1224" y="984" width="24" height="24">
   <properties>
     <property name="item" value="Crusher"/>
   </properties>
  </object>
-<object id="118" name="Timo" type="FixedLoot" x="1272" y="984" width="24" height="24">
+<object id="122" name="Timo" type="FixedLoot" x="1272" y="984" width="24" height="24">
   <properties>
     <property name="item" value="Decoy"/>
   </properties>
  </object>
-<object id="119" name="Timo" type="FixedLoot" x="1320" y="984" width="24" height="24">
+<object id="123" name="Timo" type="FixedLoot" x="1320" y="984" width="24" height="24">
   <properties>
     <property name="item" value="PortableDoor"/>
   </properties>
  </object>
-<object id="120" name="Timo" type="FixedLoot" x="1368" y="984" width="24" height="24">
+<object id="124" name="Timo" type="FixedLoot" x="1368" y="984" width="24" height="24">
   <properties>
     <property name="item" value="TeslaCoil"/>
   </properties>
  </object>
-<object id="121" name="Timo" type="FixedLoot" x="1416" y="984" width="24" height="24">
+<object id="125" name="Timo" type="FixedLoot" x="1416" y="984" width="24" height="24">
   <properties>
     <property name="item" value="Cannon"/>
   </properties>
  </object>
-<object id="122" name="Timo" type="FixedLoot" x="1464" y="984" width="24" height="24">
+<object id="126" name="Timo" type="FixedLoot" x="1464" y="984" width="24" height="24">
   <properties>
     <property name="item" value="DarknessLantern"/>
   </properties>
  </object>
-<object id="123" name="Timo" type="FixedLoot" x="1512" y="984" width="24" height="24">
+<object id="127" name="Timo" type="FixedLoot" x="1512" y="984" width="24" height="24">
   <properties>
     <property name="item" value="ExplosiveGrenade"/>
   </properties>
  </object>
-<object id="124" name="Timo" type="FixedLoot" x="888" y="1056" width="24" height="24">
+<object id="128" name="Timo" type="FixedLoot" x="888" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="FastGrenade"/>
   </properties>
  </object>
-<object id="125" name="Timo" type="FixedLoot" x="936" y="1056" width="24" height="24">
+<object id="129" name="Timo" type="FixedLoot" x="936" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="ClusterBomb"/>
   </properties>
  </object>
-<object id="126" name="Timo" type="FixedLoot" x="984" y="1056" width="24" height="24">
+<object id="130" name="Timo" type="FixedLoot" x="984" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="MagnetGrenade"/>
   </properties>
  </object>
-<object id="127" name="Timo" type="FixedLoot" x="1032" y="1056" width="24" height="24">
+<object id="131" name="Timo" type="FixedLoot" x="1032" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="StunningGrenade"/>
   </properties>
  </object>
-<object id="128" name="Timo" type="FixedLoot" x="1080" y="1056" width="24" height="24">
+<object id="132" name="Timo" type="FixedLoot" x="1080" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="IceBomb"/>
   </properties>
  </object>
-<object id="129" name="Timo" type="FixedLoot" x="1128" y="1056" width="24" height="24">
+<object id="133" name="Timo" type="FixedLoot" x="1128" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="FireBomb"/>
   </properties>
  </object>
-<object id="130" name="Timo" type="FixedLoot" x="1176" y="1056" width="24" height="24">
+<object id="134" name="Timo" type="FixedLoot" x="1176" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="RootBomb"/>
   </properties>
  </object>
-<object id="131" name="Timo" type="FixedLoot" x="1224" y="1056" width="24" height="24">
+<object id="135" name="Timo" type="FixedLoot" x="1224" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="OilBomb"/>
   </properties>
  </object>
-<object id="132" name="Timo" type="FixedLoot" x="1272" y="1056" width="24" height="24">
+<object id="136" name="Timo" type="FixedLoot" x="1272" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="SideBomb"/>
   </properties>
  </object>
-<object id="133" name="Timo" type="FixedLoot" x="1320" y="1056" width="24" height="24">
+<object id="137" name="Timo" type="FixedLoot" x="1320" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="Pokebomb"/>
   </properties>
  </object>
-<object id="134" name="Timo" type="FixedLoot" x="1368" y="1056" width="24" height="24">
+<object id="138" name="Timo" type="FixedLoot" x="1368" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="SlowOrb"/>
   </properties>
  </object>
-<object id="135" name="Timo" type="FixedLoot" x="1416" y="1056" width="24" height="24">
+<object id="139" name="Timo" type="FixedLoot" x="1416" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="Tornado"/>
   </properties>
  </object>
-<object id="136" name="Timo" type="FixedLoot" x="1464" y="1056" width="24" height="24">
+<object id="140" name="Timo" type="FixedLoot" x="1464" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="KnivesCircle"/>
   </properties>
  </object>
-<object id="137" name="Timo" type="FixedLoot" x="1512" y="1056" width="24" height="24">
+<object id="141" name="Timo" type="FixedLoot" x="1512" y="1056" width="24" height="24">
   <properties>
     <property name="item" value="DamageBuff"/>
   </properties>
  </object>
-<object id="138" name="Timo" type="FixedLoot" x="888" y="1128" width="24" height="24">
+<object id="142" name="Timo" type="FixedLoot" x="888" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="LeechBuff"/>
   </properties>
  </object>
-<object id="139" name="Timo" type="FixedLoot" x="936" y="1128" width="24" height="24">
+<object id="143" name="Timo" type="FixedLoot" x="936" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="ExtraHeal"/>
   </properties>
  </object>
-<object id="140" name="Timo" type="FixedLoot" x="984" y="1128" width="24" height="24">
+<object id="144" name="Timo" type="FixedLoot" x="984" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="BulletKiller"/>
   </properties>
  </object>
-<object id="141" name="Timo" type="FixedLoot" x="1032" y="1128" width="24" height="24">
+<object id="145" name="Timo" type="FixedLoot" x="1032" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="Hook"/>
   </properties>
  </object>
-<object id="142" name="Timo" type="FixedLoot" x="1080" y="1128" width="24" height="24">
+<object id="146" name="Timo" type="FixedLoot" x="1080" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="BackBlink"/>
   </properties>
  </object>
-<object id="143" name="Timo" type="FixedLoot" x="1128" y="1128" width="24" height="24">
+<object id="147" name="Timo" type="FixedLoot" x="1128" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="TimeDistorsion"/>
   </properties>
  </object>
-<object id="144" name="Timo" type="FixedLoot" x="1176" y="1128" width="24" height="24">
+<object id="148" name="Timo" type="FixedLoot" x="1176" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="ToxicCloud"/>
   </properties>
  </object>
-<object id="145" name="Timo" type="FixedLoot" x="1224" y="1128" width="24" height="24">
+<object id="149" name="Timo" type="FixedLoot" x="1224" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="DamageAura"/>
   </properties>
  </object>
-<object id="146" name="Timo" type="FixedLoot" x="1272" y="1128" width="24" height="24">
+<object id="150" name="Timo" type="FixedLoot" x="1272" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="Shockwave"/>
   </properties>
  </object>
-<object id="147" name="Timo" type="FixedLoot" x="1320" y="1128" width="24" height="24">
+<object id="151" name="Timo" type="FixedLoot" x="1320" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="Wings"/>
   </properties>
  </object>
-<object id="148" name="Timo" type="FixedLoot" x="1368" y="1128" width="24" height="24">
+<object id="152" name="Timo" type="FixedLoot" x="1368" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="ComboMult"/>
   </properties>
  </object>
-<object id="149" name="Timo" type="FixedLoot" x="1416" y="1128" width="24" height="24">
+<object id="153" name="Timo" type="FixedLoot" x="1416" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="Pokecharge"/>
   </properties>
  </object>
-<object id="150" name="Timo" type="FixedLoot" x="1464" y="1128" width="24" height="24">
+<object id="154" name="Timo" type="FixedLoot" x="1464" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="Map"/>
   </properties>
  </object>
-<object id="151" name="Timo" type="FixedLoot" x="1512" y="1128" width="24" height="24">
+<object id="155" name="Timo" type="FixedLoot" x="1512" y="1128" width="24" height="24">
   <properties>
     <property name="item" value="Owl"/>
   </properties>
  </object>
-<object id="152" name="Timo" type="FixedLoot" x="888" y="1200" width="24" height="24">
+<object id="156" name="Timo" type="FixedLoot" x="888" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="Chicken"/>
   </properties>
  </object>
-<object id="153" name="Timo" type="FixedLoot" x="936" y="1200" width="24" height="24">
+<object id="157" name="Timo" type="FixedLoot" x="936" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="SpeedRunner"/>
   </properties>
  </object>
-<object id="154" name="Timo" type="FixedLoot" x="984" y="1200" width="24" height="24">
+<object id="158" name="Timo" type="FixedLoot" x="984" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="Dash"/>
   </properties>
  </object>
-<object id="155" name="Timo" type="FixedLoot" x="1032" y="1200" width="24" height="24">
+<object id="159" name="Timo" type="FixedLoot" x="1032" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="GiantWhistle"/>
   </properties>
  </object>
-<object id="156" name="Timo" type="FixedLoot" x="1080" y="1200" width="24" height="24">
+<object id="160" name="Timo" type="FixedLoot" x="1080" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="SeismicStomp"/>
   </properties>
  </object>
-<object id="157" name="Timo" type="FixedLoot" x="1128" y="1200" width="24" height="24">
+<object id="161" name="Timo" type="FixedLoot" x="1128" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="CollectorSpin"/>
   </properties>
  </object>
-<object id="158" name="Timo" type="FixedLoot" x="1176" y="1200" width="24" height="24">
+<object id="162" name="Timo" type="FixedLoot" x="1176" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="SmokeBomb"/>
   </properties>
  </object>
-<object id="159" name="Timo" type="FixedLoot" x="1224" y="1200" width="24" height="24">
+<object id="163" name="Timo" type="FixedLoot" x="1224" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="SpawnFriendlyHardy"/>
   </properties>
  </object>
-<object id="160" name="Timo" type="FixedLoot" x="1272" y="1200" width="24" height="24">
+<object id="164" name="Timo" type="FixedLoot" x="1272" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="IceArmor"/>
   </properties>
  </object>
-<object id="161" name="Timo" type="FixedLoot" x="1320" y="1200" width="24" height="24">
+<object id="165" name="Timo" type="FixedLoot" x="1320" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="LightningRod"/>
   </properties>
  </object>
-<object id="162" name="Timo" type="FixedLoot" x="1368" y="1200" width="24" height="24">
+<object id="166" name="Timo" type="FixedLoot" x="1368" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="GardenerSickles"/>
   </properties>
  </object>
-<object id="163" name="Timo" type="FixedLoot" x="1416" y="1200" width="24" height="24">
+<object id="167" name="Timo" type="FixedLoot" x="1416" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="FlyingSword"/>
   </properties>
  </object>
-<object id="164" name="Timo" type="FixedLoot" x="1464" y="1200" width="24" height="24">
+<object id="168" name="Timo" type="FixedLoot" x="1464" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="BubbleShieldPower"/>
   </properties>
  </object>
-<object id="165" name="Timo" type="FixedLoot" x="1512" y="1200" width="24" height="24">
+<object id="169" name="Timo" type="FixedLoot" x="1512" y="1200" width="24" height="24">
   <properties>
     <property name="item" value="FaceFlask"/>
   </properties>
  </object>
-<object id="166" name="Timo" type="FixedLoot" x="888" y="1272" width="24" height="24">
+<object id="170" name="Timo" type="FixedLoot" x="888" y="1272" width="24" height="24">
   <properties>
     <property name="item" value="PolloPower"/>
   </properties>
  </object>
-<object id="167" name="Timo" type="FixedLoot" x="936" y="1272" width="24" height="24">
+<object id="171" name="Timo" type="FixedLoot" x="936" y="1272" width="24" height="24">
   <properties>
     <property name="item" value="SpawnLilStaphy"/>
   </properties>
  </object>
-<object id="168" name="Timo" type="FixedLoot" x="984" y="1272" width="24" height="24">
+<object id="172" name="Timo" type="FixedLoot" x="984" y="1272" width="24" height="24">
   <properties>
     <property name="item" value="LilStaphyStab"/>
   </properties>
  </object>
-<object id="169" name="Timo" type="FixedLoot" x="1032" y="1272" width="24" height="24">
+<object id="173" name="Timo" type="FixedLoot" x="1032" y="1272" width="24" height="24">
   <properties>
     <property name="item" value="SpawnAdultLilStaphy"/>
   </properties>
  </object>
-<object id="170" name="Timo" type="FixedLoot" x="1080" y="1272" width="24" height="24">
+<object id="174" name="Timo" type="FixedLoot" x="1080" y="1272" width="24" height="24">
   <properties>
     <property name="item" value="AdultLilStaphyStab"/>
   </properties>
