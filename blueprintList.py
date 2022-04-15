@@ -120,8 +120,12 @@ def main():
 
     print (len(dlcDict[0]),len(dlcDict[1]),len(dlcDict[2]))
 
+    # Change this when the map is resized in the height direction (Add rows to the top)
+    nAdd = 3
+
     # Armory showcase at y direction
     yList = [41,44,47,50,53,56]
+    yList = [y+nAdd for y in yList]
 
     # Weapons showcase
     xRange = [2,34]
@@ -138,6 +142,7 @@ def main():
 
     # Skills showcase 1
     yList = [41,44,47,50,53]
+    yList = [y+nAdd for y in yList]
 
     xRange = [36,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
@@ -152,7 +157,7 @@ def main():
                 id += 1
 
     # Skins showcase
-    yList = [2,5,8]
+    yList = [2,5,8,11]
     xRange = [2,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):
@@ -168,6 +173,8 @@ def main():
     # Metas and Mutation showcase
     comb = metas+mutations
     yList = [59,62,65]
+    yList = [y+nAdd for y in yList]
+
     xRange = [2,64]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):
@@ -188,7 +195,9 @@ def main():
                     id += 1
 
     # New dlc items showcase
-    yList = [68,71]
+    yList = [69,72]
+    yList = [y+nAdd for y in yList]
+    
     xRange = [3,46]
     nInLine = int((xRange[-1]-xRange[0])/2)
     for j in range(len(yList)):

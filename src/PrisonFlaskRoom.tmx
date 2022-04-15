@@ -1,317 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="67" height="74" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="12">
+<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="67" height="77" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="12">
  <tileset firstgid="1" source="../../lnk.tsx"/>
  <tileset firstgid="9" source="../../col.tsx"/>
- <layer id="1" name="col" width="67" height="74">
+ <layer id="1" name="col" width="67" height="77">
   <data encoding="base64" compression="zlib">
-   eJztmsGSwiAMQLnajv//ux4Ugx3qUEhMkPdmMrsHaejbBGjXW0rpRrxjS5Bd7N4TCUDpYls4ji5WBxcCPUKP1MCFUJ4vvM84UWJ//ZwBXAi4EH7hYiZwIeBC6L3PlmvO9sxu6WK2urAAFwIuBFwIuBBm3Ufyewfts8XM4OI7uACwI+8jls9+rVG+m/bo83y+8PbQc0+4+Jy7Rn2Vn9N0cWXOVrV+Nfd+8rvV33QFF63cG8KCSC4snh0iutCeEy7GY7Tu/snF6Np/dNGyto2sdTO5iFCrveO1XWgwep3e8Rp5cSHjSxfe35naHOdhURejeM0DF5956RF6pJYXF5KXHqFHanlxIXnpEXqklhcXkpceoUdqeXEhecv3SWVcfRfVO/bsGr+Yw9mYKHXhRcQe8SLiPuK5f1EXT3Ah0CP0SA1cCMez1sj/4DxDq0/y9VKAe+oNDcq6WB1cCLX1wntv6+lx7T01pTnrw2q9WNmF9/ofMR6bgkn2
+   eJztmtGSwiAMRXm1Hf//d/dhFy/boSuFxMD2nJmMPkiDxwSk+kgpPYhXbAmyiz16IhNQuthuHEcXdwcXgh6hR2rgQtAj9EgNXIjyO3j0OeDdGSGHd67953EFcCFwIT7hYiVwIXAhet9nyzW3N6+bDU8Xq9WFB7gQuBC4ELgQq+4jXue0lcHF3+ACwI+8j3ie/Vqj916epYt8Lyc6euaOC83dor7K11m6uDJnr1q/mns/ee71md7BRSvPhvBgJhceZ4cZXVjPCRfjMVp3/8nF6Np/dNGyto2sdSu5mKFWe8dbu7Bg9Dq94y3y4kLjSxfR/5naAufhURejRM0DF7/z0iP0SC0vLpSXHqFHanlxobz0CD1Sy4sL5aVH6JFaXlwob3k/qYyr96J6x55d4xNzOBszS11EMWOPRDHjPhK5f1EX3+BC0CP0SA1ciON3rZHf4CLDqk/y9dIE76k3LCjr4u7gQtTWi+i9rafHrffUlNasD6/14s4uotf/GeMLy5JMxg==
   </data>
  </layer>
- <layer id="2" name="lnk" width="67" height="74" opacity="0.5">
+ <layer id="2" name="lnk" width="67" height="77" opacity="0.5">
   <data encoding="base64" compression="zlib">
-   eJzt0MEJACAMBMGQ/ov2IXIlGHGmgmWrAAAAAACAH/TtgEG8CC+2Li8OL8KH8CK8AAAAAAAAAAAAAAB41wIwZAAV
+   eJzt0MEJACAQA8Fw/RftQyQlqDBTwbIJAAAAAAAAMLcDHuJFebFNvDi8KB/Ki/ICAAAAAAAAAAAAAOBfCzOIABU=
   </data>
  </layer>
  <objectgroup id="3" name="markers" opacity="0.5">
-  <object id="1" name="CustomDeco" type="CustomDeco" x="72" y="240" width="984" height="432">
+  <object id="1" name="CustomDeco" type="CustomDeco" x="72" y="312" width="984" height="432">
    <properties>
     <property name="customId" value="flaskZone1"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="2" name="Flasks" type="Flasks" x="72" y="240" width="168" height="336">
+  <object id="2" name="Flasks" type="Flasks" x="72" y="312" width="168" height="336">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="3" name="Flasks" type="Flasks" x="240" y="240" width="96" height="312">
+  <object id="3" name="Flasks" type="Flasks" x="240" y="312" width="96" height="312">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="4" name="Flasks" type="Flasks" x="336" y="240" width="96" height="312">
+  <object id="4" name="Flasks" type="Flasks" x="336" y="312" width="96" height="312">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="5" name="Flasks" type="Flasks" x="432" y="240" width="216" height="288">
+  <object id="5" name="Flasks" type="Flasks" x="432" y="312" width="216" height="288">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="6" name="Flasks" type="Flasks" x="648" y="240" width="96" height="312">
+  <object id="6" name="Flasks" type="Flasks" x="648" y="312" width="96" height="312">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="7" name="Flasks" type="Flasks" x="744" y="240" width="96" height="312">
+  <object id="7" name="Flasks" type="Flasks" x="744" y="312" width="96" height="312">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="8" name="Flasks" type="Flasks" x="840" y="240" width="216" height="336">
+  <object id="8" name="Flasks" type="Flasks" x="840" y="312" width="216" height="336">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="9" name="DisableDecorator" type="DisableDecorator" x="72" y="312" width="240" height="288">
+  <object id="9" name="DisableDecorator" type="DisableDecorator" x="72" y="384" width="240" height="288">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="10" name="DisableDecorator" type="DisableDecorator" x="312" y="312" width="456" height="336">
+  <object id="10" name="DisableDecorator" type="DisableDecorator" x="312" y="384" width="456" height="336">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="11" name="DisableDecorator" type="DisableDecorator" x="768" y="312" width="288" height="288">
+  <object id="11" name="DisableDecorator" type="DisableDecorator" x="768" y="384" width="288" height="288">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="12" name="GenericEventTrigger" type="GenericEventTrigger" x="936" y="312" width="96" height="504">
+  <object id="12" name="GenericEventTrigger" type="GenericEventTrigger" x="936" y="384" width="96" height="504">
    <properties>
     <property name="customId" value="giantNoise"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="13" name="DisableDecorator" type="DisableDecorator" x="1104" y="408" width="480" height="120">
+  <object id="13" name="DisableDecorator" type="DisableDecorator" x="1104" y="480" width="480" height="120">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="14" name="Light" type="Light" x="1176" y="480" width="24" height="24">
+  <object id="14" name="Light" type="Light" x="1176" y="552" width="24" height="24">
    <properties>
     <property name="light" value="FlaskExit"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="15" name="GenericEventTrigger" type="GenericEventTrigger" x="1032" y="504" width="96" height="168">
+  <object id="15" name="GenericEventTrigger" type="GenericEventTrigger" x="1032" y="576" width="96" height="168">
    <properties>
     <property name="customId" value="doubleJumpTuto"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="16" name="CustomDeco" type="CustomDeco" x="1104" y="504" width="24" height="24">
+  <object id="16" name="CustomDeco" type="CustomDeco" x="1104" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="17" name="CustomDeco" type="CustomDeco" x="1128" y="504" width="24" height="24">
+  <object id="17" name="CustomDeco" type="CustomDeco" x="1128" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="18" name="Npc" type="Npc" x="1176" y="504" width="24" height="24">
+  <object id="18" name="Npc" type="Npc" x="1176" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="scribe"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="19" name="CustomEntity" type="CustomEntity" x="1320" y="504" width="24" height="24">
+  <object id="19" name="CustomEntity" type="CustomEntity" x="1320" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="mirror"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="20" name="CustomDeco" type="CustomDeco" x="1416" y="504" width="24" height="24">
+  <object id="20" name="CustomDeco" type="CustomDeco" x="1416" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="brasero"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="21" name="CustomEntity" type="CustomEntity" x="1488" y="504" width="24" height="24">
+  <object id="21" name="CustomEntity" type="CustomEntity" x="1488" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="scoringDoor"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="22" name="CustomDeco" type="CustomDeco" x="1560" y="504" width="24" height="24">
+  <object id="22" name="CustomDeco" type="CustomDeco" x="1560" y="576" width="24" height="24">
    <properties>
     <property name="customId" value="brasero"/>
     <property name="xr" value="0.9"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="23" name="GenericEventTrigger" type="GenericEventTrigger" x="1152" y="576" width="192" height="144">
+  <object id="23" name="GenericEventTrigger" type="GenericEventTrigger" x="1152" y="648" width="192" height="144">
    <properties>
     <property name="customId" value="lockBossRune"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="24" name="CustomDeco" type="CustomDeco" x="1176" y="600" width="384" height="120">
+  <object id="24" name="CustomDeco" type="CustomDeco" x="1176" y="672" width="384" height="120">
    <properties>
     <property name="customId" value="weaponDeco"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="25" name="GenericEventTrigger" type="GenericEventTrigger" x="1224" y="600" width="48" height="120">
+  <object id="25" name="GenericEventTrigger" type="GenericEventTrigger" x="1224" y="672" width="48" height="120">
    <properties>
     <property name="customId" value="checkGlitchNeeded"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="26" name="DisableDecorator" type="DisableDecorator" x="1296" y="600" width="216" height="120">
+  <object id="26" name="DisableDecorator" type="DisableDecorator" x="1296" y="672" width="216" height="120">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="27" name="Npc" type="Npc" x="312" y="648" width="24" height="24">
+  <object id="27" name="Npc" type="Npc" x="312" y="720" width="24" height="24">
    <properties>
     <property name="customId" value="flask"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="28" name="DisableDecorator" type="DisableDecorator" x="336" y="648" width="408" height="24">
+  <object id="28" name="DisableDecorator" type="DisableDecorator" x="336" y="720" width="408" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="29" name="FlaskAlcove" type="FlaskAlcove" x="528" y="648" width="24" height="24">
+  <object id="29" name="FlaskAlcove" type="FlaskAlcove" x="528" y="720" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="30" name="Door" type="Door" x="1128" y="648" width="24" height="24">
+  <object id="30" name="Door" type="Door" x="1128" y="720" width="24" height="24">
    <properties>
     <property name="customId" value="hubDoor"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="31" name="DisableDecorator" type="DisableDecorator" x="1176" y="648" width="120" height="72">
+  <object id="31" name="DisableDecorator" type="DisableDecorator" x="1176" y="720" width="120" height="72">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="32" name="DisableDecorator" type="DisableDecorator" x="1512" y="648" width="48" height="72">
+  <object id="32" name="DisableDecorator" type="DisableDecorator" x="1512" y="720" width="48" height="72">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="33" name="Light" type="Light" x="1248" y="672" width="24" height="24">
+  <object id="33" name="Light" type="Light" x="1248" y="744" width="24" height="24">
    <properties>
     <property name="light" value="Candle"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="34" name="DisableDecorator" type="DisableDecorator" x="840" y="696" width="288" height="168">
+  <object id="34" name="DisableDecorator" type="DisableDecorator" x="840" y="768" width="288" height="168">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="35" name="ZDoor" type="ZDoor" x="864" y="696" width="144" height="120">
+  <object id="35" name="ZDoor" type="ZDoor" x="864" y="768" width="144" height="120">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="36" name="CustomDeco" type="CustomDeco" x="1248" y="696" width="24" height="24">
+  <object id="36" name="CustomDeco" type="CustomDeco" x="1248" y="768" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="37" name="StartCC" type="StartCC" x="1296" y="696" width="24" height="24">
+  <object id="37" name="StartCC" type="StartCC" x="1296" y="768" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="38" name="StartBow" type="StartBow" x="1368" y="696" width="24" height="24">
+  <object id="38" name="StartBow" type="StartBow" x="1368" y="768" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="39" name="StartShield" type="StartShield" x="1440" y="696" width="24" height="24">
+  <object id="39" name="StartShield" type="StartShield" x="1440" y="768" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="40" name="StartAmulet" type="StartAmulet" x="1512" y="696" width="24" height="24">
+  <object id="40" name="StartAmulet" type="StartAmulet" x="1512" y="768" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="41" name="Door" type="Door" x="1584" y="696" width="24" height="24">
+  <object id="41" name="Door" type="Door" x="1584" y="768" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="43" name="CustomDeco" type="CustomDeco" x="1032" y="792" width="24" height="24">
+  <object id="43" name="CustomDeco" type="CustomDeco" x="1032" y="864" width="24" height="24">
    <properties>
     <property name="customId" value="brasero"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="44" name="CustomEntity" type="CustomEntity" x="1200" y="840" width="24" height="24">
+  <object id="44" name="CustomEntity" type="CustomEntity" x="1200" y="912" width="24" height="24">
    <properties>
     <property name="customId" value="trainingDoor"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="46" name="Npc" type="Npc" x="504" y="912" width="24" height="24">
+  <object id="46" name="Npc" type="Npc" x="504" y="984" width="24" height="24">
    <properties>
     <property name="customId" value="aspect"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="47" name="DisableDecorator" type="DisableDecorator" x="312" y="744" width="312" height="192">
+  <object id="47" name="DisableDecorator" type="DisableDecorator" x="312" y="816" width="312" height="192">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="50" name="DisableDecorator" type="DisableDecorator" x="624" y="792" width="216" height="24">
+  <object id="50" name="DisableDecorator" type="DisableDecorator" x="624" y="864" width="216" height="24">
    <properties>
     <property name="customId" value="brasero"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="52" name="CustomDeco" type="CustomDeco" x="576" y="912" width="24" height="24">
+  <object id="52" name="CustomDeco" type="CustomDeco" x="576" y="984" width="24" height="24">
    <properties>
     <property name="customId" value="brasero"/>
     <property name="layer" value="MainAction"/>
@@ -319,28 +319,28 @@
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="44" name="GenericEventTrigger" type="GenericEventTrigger" x="816" y="240" width="96" height="432">
+  <object id="44" name="GenericEventTrigger" type="GenericEventTrigger" x="816" y="312" width="96" height="432">
    <properties>
     <property name="customId" value="tentacleDLC3Cine"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="46" name="TentacleNoteDLC3" type="CustomEntity" x="792" y="648" width="24" height="24">
+  <object id="46" name="TentacleNoteDLC3" type="CustomEntity" x="792" y="720" width="24" height="24">
    <properties>
     <property name="customId" value="tentacleNote"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="60" name="FriendsSkinUnlockNote" type="CustomEntity" x="984" y="648" width="24" height="24">
+  <object id="60" name="FriendsSkinUnlockNote" type="CustomEntity" x="984" y="720" width="24" height="24">
    <properties>
     <property name="customId" value="FriendsSkinUnlockNote"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="54" name="LoreDeco" type="LoreDeco" x="384" y="912" width="24" height="24">
+  <object id="54" name="LoreDeco" type="LoreDeco" x="384" y="984" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="aspectsNPCstuffs"/>
@@ -348,14 +348,14 @@
     <property name="offset" value="BottomLeft"/>
    </properties>
   </object>
-  <object id="59" name="Goggles" type="CustomEntity" x="216" y="648" width="24" height="24">
+  <object id="59" name="Goggles" type="CustomEntity" x="216" y="720" width="24" height="24">
    <properties>
     <property name="customId" value="flaskGoggles"/>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="60" name="Light" type="CustomDeco" x="408" y="792" width="24" height="24">
+  <object id="60" name="Light" type="CustomDeco" x="408" y="864" width="24" height="24">
    <properties>
     <property name="customId" value="lantern"/>
     <property name="layer" value="MainBackWalls"/>
@@ -363,20 +363,20 @@
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="62" name="CustomDeco" type="CustomDeco" x="1296" y="840" width="24" height="24">
+  <object id="62" name="CustomDeco" type="CustomDeco" x="1296" y="912" width="24" height="24">
    <properties>
     <property name="customId" value="brasero"/>
     <property name="xr" value="0.5"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="63" name="DisableDecorator" type="DisableDecorator" x="1128" y="744" width="216" height="120">
+  <object id="63" name="DisableDecorator" type="DisableDecorator" x="1128" y="816" width="216" height="120">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="64" name="LoreDeco_dummyTrainingRoom" type="LoreDeco" x="1080" y="840" width="24" height="24">
+  <object id="64" name="LoreDeco_dummyTrainingRoom" type="LoreDeco" x="1080" y="912" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="dummyTrainingRoom"/>
@@ -385,7 +385,7 @@
     <property name="xr" value="0"/>
    </properties>
   </object>
-  <object id="67" name="LoreDeco_halteres" type="LoreDeco" x="1248" y="840" width="24" height="24">
+  <object id="67" name="LoreDeco_halteres" type="LoreDeco" x="1248" y="912" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="halteres"/>
@@ -394,7 +394,7 @@
     <property name="xr" value="0"/>
    </properties>
   </object>
-  <object id="68" name="LoreDeco_puppetTail" type="LoreDeco" x="984" y="792" width="24" height="24">
+  <object id="68" name="LoreDeco_puppetTail" type="LoreDeco" x="984" y="864" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="puppetTail"/>
@@ -403,7 +403,7 @@
     <property name="xr" value="0"/>
    </properties>
   </object>
-  <object id="69" name="LoreDeco_signTailor" type="LoreDeco" x="960" y="720" width="24" height="24">
+  <object id="69" name="LoreDeco_signTailor" type="LoreDeco" x="960" y="792" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="signTailor"/>
@@ -413,7 +413,7 @@
     <property name="yr" value="0.7"/>
    </properties>
   </object>
-  <object id="70" name="LoreDeco_guardArmor" type="LoreDeco" x="840" y="792" width="24" height="24">
+  <object id="70" name="LoreDeco_guardArmor" type="LoreDeco" x="840" y="864" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="guardArmor"/>
@@ -422,7 +422,7 @@
     <property name="xr" value="0.5"/>
    </properties>
   </object>
-  <object id="72" name="LoreDeco_signTailor" type="LoreDeco" x="1248" y="768" width="24" height="24">
+  <object id="72" name="LoreDeco_signTailor" type="LoreDeco" x="1248" y="840" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="signTraining"/>
@@ -432,32 +432,32 @@
     <property name="yr" value="0.95"/>
    </properties>
   </object>
-  <object id="73" name="CustomDeco" type="CustomDeco" x="1152" y="840" width="24" height="24">
+  <object id="73" name="CustomDeco" type="CustomDeco" x="1152" y="912" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0.5"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="74" name="CustomDeco" type="CustomDeco" x="888" y="792" width="24" height="24">
+  <object id="74" name="CustomDeco" type="CustomDeco" x="888" y="864" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0.65"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="47" name="DisableDecorator" type="DisableDecorator" x="840" y="696" width="288" height="168">
+  <object id="47" name="DisableDecorator" type="DisableDecorator" x="840" y="768" width="288" height="168">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="48" name="ZDoor" type="ZDoor" x="864" y="696" width="144" height="120">
+  <object id="48" name="ZDoor" type="ZDoor" x="864" y="768" width="144" height="120">
    <properties>
     <property name="xr" value="0"/>
    </properties>
   </object>
-  <object id="68" name="LoreDeco_puppetTail" type="LoreDeco" x="984" y="792" width="24" height="24">
+  <object id="68" name="LoreDeco_puppetTail" type="LoreDeco" x="984" y="864" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="puppetTail"/>
@@ -466,7 +466,7 @@
     <property name="xr" value="0"/>
    </properties>
   </object>
-  <object id="69" name="LoreDeco_signTailor" type="LoreDeco" x="960" y="720" width="24" height="24">
+  <object id="69" name="LoreDeco_signTailor" type="LoreDeco" x="960" y="792" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="signTailor"/>
@@ -476,7 +476,7 @@
     <property name="yr" value="0.7"/>
    </properties>
   </object>
-  <object id="70" name="LoreDeco_guardArmor" type="LoreDeco" x="840" y="792" width="24" height="24">
+  <object id="70" name="LoreDeco_guardArmor" type="LoreDeco" x="840" y="864" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="guardArmor"/>
@@ -485,7 +485,7 @@
     <property name="xr" value="0.5"/>
    </properties>
   </object>
-  <object id="72" name="LoreDeco_signTailor" type="LoreDeco" x="1248" y="768" width="24" height="24">
+  <object id="72" name="LoreDeco_signTailor" type="LoreDeco" x="1248" y="840" width="24" height="24">
    <properties>
     <property name="blendMode" value="None"/>
     <property name="customId" value="signTraining"/>
@@ -495,33 +495,33 @@
     <property name="yr" value="0.95"/>
    </properties>
   </object>
-  <object id="73" name="CustomDeco" type="CustomDeco" x="1152" y="840" width="24" height="24">
+  <object id="73" name="CustomDeco" type="CustomDeco" x="1152" y="912" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0.5"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="74" name="CustomDeco" type="CustomDeco" x="888" y="792" width="24" height="24">
+  <object id="74" name="CustomDeco" type="CustomDeco" x="888" y="864" width="24" height="24">
    <properties>
     <property name="customId" value="candle"/>
     <property name="xr" value="0.65"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="8" name="Door" type="Door" x="48" y="1656" width="24" height="24">
+  <object id="8" name="Door" type="Door" x="48" y="1728" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="9" name="Door" type="Door" x="48" y="1728" width="24" height="24">
+  <object id="9" name="Door" type="Door" x="48" y="1800" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="10" name="Door" type="Door" x="1128" y="1656" width="24" height="24">
+  <object id="10" name="Door" type="Door" x="1128" y="1728" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
