@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="67" height="77" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="12">
+<map version="1.4" tiledversion="1.4.0" orientation="orthogonal" renderorder="right-down" width="67" height="83" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="12">
  <tileset firstgid="1" source="../../lnk.tsx"/>
  <tileset firstgid="9" source="../../col.tsx"/>
- <layer id="1" name="col" width="67" height="77">
+ <layer id="1" name="col" width="67" height="83">
   <data encoding="base64" compression="zlib">
-   eJztmtGSwiAMRXm1Hf//d/dhFy/boSuFxMD2nJmMPkiDxwSk+kgpPYhXbAmyiz16IhNQuthuHEcXdwcXgh6hR2rgQtAj9EgNXIjyO3j0OeDdGSGHd67953EFcCFwIT7hYiVwIXAhet9nyzW3N6+bDU8Xq9WFB7gQuBC4ELgQq+4jXue0lcHF3+ACwI+8j3ie/Vqj916epYt8Lyc6euaOC83dor7K11m6uDJnr1q/mns/ee71md7BRSvPhvBgJhceZ4cZXVjPCRfjMVp3/8nF6Np/dNGyto2sdSu5mKFWe8dbu7Bg9Dq94y3y4kLjSxfR/5naAufhURejRM0DF7/z0iP0SC0vLpSXHqFHanlxobz0CD1Sy4sL5aVH6JFaXlwob3k/qYyr96J6x55d4xNzOBszS11EMWOPRDHjPhK5f1EX3+BC0CP0SA1ciON3rZHf4CLDqk/y9dIE76k3LCjr4u7gQtTWi+i9rafHrffUlNasD6/14s4uotf/GeMLy5JMxg==
+   eJztmsFuwyAQBbnGVv7/d3toyaMWbjDsZqGekVbpIfaSCQ+KlUdK6UG9akuQXezRA5mA0sV24zq6uDu4EGSEjNTAhSAjZKQGLkT5P3j0OeDdGSGXd6/953UFcCFwIT7hYiVwIXAhej9nyz23N++bDU8Xq80LD3AhcCFwIXAhVt1HvM5pK4OLv8EFgB95H/E8+7VW77M8Sxf5WU509YwdFxq7xfwq32fp4sqYveb61d77yd9e3+kdXLTybCgPZnLhcXaY0YX1mHAxXqPz7j+5GF37jy5a1raRtW4lFzPM1d7rrV1YMHqf3ust+uJC15cuon8ztQWOw2NejBI1Dlz87ktGyEitLy7Ul4yQkVpfXKgvGSEjtb64UF8yQkZqfXGhvmSEjNT64kJ9y2euZV19Xtt77dk9PjGGs2tmmRdRzJiRKGbcRyL3L+bFN7gQZISM1MCFICNkpAYuxPE8MvJbjsiyykm+X5rgM/WWBeW8uDu4ELX1Inpv68m49Z66KqwXwmrs0ev/jPUFNElSpw==
   </data>
  </layer>
- <layer id="2" name="lnk" width="67" height="77" opacity="0.5">
+ <layer id="2" name="lnk" width="67" height="83" opacity="0.5">
   <data encoding="base64" compression="zlib">
-   eJzt0MEJACAQA8Fw/RftQyQlqDBTwbIJAAAAAAAAMLcDHuJFebFNvDi8KB/Ki/ICAAAAAAAAAAAAAOBfCzOIABU=
+   eJzt0MEJACAQA8Fw/RftQyQlKDhTwbIJAAAAAAAAMLcDHuJFebFNvDi8KB/Ki/ICAAAAAAAAAAAAAAAA/rQAt3AAFQ==
   </data>
  </layer>
  <objectgroup id="3" name="markers" opacity="0.5">
@@ -509,19 +509,19 @@
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="8" name="Door" type="Door" x="48" y="1728" width="24" height="24">
+  <object id="8" name="Door" type="Door" x="48" y="1872" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="9" name="Door" type="Door" x="48" y="1800" width="24" height="24">
+  <object id="9" name="Door" type="Door" x="48" y="1943" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>
    </properties>
   </object>
-  <object id="10" name="Door" type="Door" x="1128" y="1728" width="24" height="24">
+  <object id="10" name="Door" type="Door" x="1128" y="1872" width="24" height="24">
    <properties>
     <property name="xr" value="0"/>
     <property name="yr" value="0"/>

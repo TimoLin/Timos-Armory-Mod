@@ -124,7 +124,7 @@ def main():
     nAdd = 3
 
     # Armory showcase at y direction
-    yList = [41,44,47,50,53,56]
+    yList = [41,44,47,50,53,56,59]
     yList = [y+nAdd for y in yList]
 
     # Weapons showcase
@@ -141,7 +141,7 @@ def main():
                 id += 1
 
     # Skills showcase 1
-    yList = [41,44,47,50,53]
+    yList = [41,44,47,50,53,56,59]
     yList = [y+nAdd for y in yList]
 
     xRange = [36,64]
@@ -172,7 +172,7 @@ def main():
 
     # Metas and Mutation showcase
     comb = metas+mutations
-    yList = [59,62,65]
+    yList = [62,65,68,71]
     yList = [y+nAdd for y in yList]
 
     xRange = [2,64]
@@ -195,7 +195,7 @@ def main():
                     id += 1
 
     # New dlc items showcase
-    yList = [69,72]
+    yList = [75,78]
     yList = [y+nAdd for y in yList]
     
     xRange = [3,46]
