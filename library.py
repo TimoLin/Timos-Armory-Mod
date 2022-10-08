@@ -100,3 +100,27 @@ def itemsDLC():
                 '''
 
     return dlcs, [tbs,ff, tqats]
+
+def isInBlacklist(item):
+    '''Check if the item is in the blacklist
+    Some two-hand weapons may have two names but only one blueprint is needed
+    '''
+    blackList = [
+        "StartSword", "StartBow","StartShield" ,
+        "BossRune",
+        # Weapons
+         "HardLightGun",
+        # skills 
+        "ExplodeFriendlyHardy","FlyingSwordCallback","OwlUp","BackDash"
+         ]
+    keyWords = [ "OffHand", "theRight", "Broken"]
+    for key in keyWords:
+        if key in item:
+            return True
+
+    if item in blackList:
+        return True
+    else:
+        return False
+    
+    return

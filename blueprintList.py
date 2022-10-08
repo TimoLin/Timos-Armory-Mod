@@ -87,17 +87,15 @@ def main():
     # Remove duplicates
     weapons = []
     for item in melee+ranged+shield:
-        if "OffHand" not in item: # For some Bows
-            if "theRight" not in item: # For some weapons with two hands
-                if "Broken" not in item: # For some two status weapons
-                    if item not in weapons and item not in dlcDict[-1]:
-                        # Item in the latest DLC is not included here
-                        weapons.append(item)
+        if not isInBlacklist(item):
+            if item not in weapons and item not in dlcDict[-1]:
+                # Item in the latest DLC is not included here
+                weapons.append(item)
     sizeOfWeapons = len(weapons)
 
     skills = []
     for item in trap+grenade+power:
-        if item not in ["ExplodeFriendlyHardy","FlyingSwordCallback","OwlUp","BackDash"]:
+        if not isInBlacklist(item):
             if item not in dlcDict[-1]: 
                 # Item in the latest DLC is not included here
                 skills.append(item)
