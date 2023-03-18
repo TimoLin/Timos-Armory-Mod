@@ -110,7 +110,7 @@ def isInBlacklist(item):
     '''
     blackList = [
         "StartSword", "StartBow","StartShield" ,
-        "BossRune", "BackPackKey",
+        "BossRune1", "BossRune2", "BossRune3", "BossRune4", "BossRune5", "BackPackKey",
         # Weapons
          "HardLightGun", "SnakeSwordWeaponAlt", "SnakeSwordSwap","RichterVampireKiller", "RichterCross", "CatAttack",
         # skills 

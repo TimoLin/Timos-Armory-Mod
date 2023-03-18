@@ -2133,640 +2133,615 @@
  </object>
 <object id="332" name="Timo" type="FixedLoot" x="216" y="1632" width="24" height="24">
   <properties>
-    <property name="item" value="BossRune1"/>
-  </properties>
- </object>
-<object id="333" name="Timo" type="FixedLoot" x="264" y="1632" width="24" height="24">
-  <properties>
-    <property name="item" value="BossRune2"/>
-  </properties>
- </object>
-<object id="334" name="Timo" type="FixedLoot" x="312" y="1632" width="24" height="24">
-  <properties>
-    <property name="item" value="BossRune3"/>
-  </properties>
- </object>
-<object id="335" name="Timo" type="FixedLoot" x="360" y="1632" width="24" height="24">
-  <properties>
-    <property name="item" value="BossRune4"/>
-  </properties>
- </object>
-<object id="336" name="Timo" type="FixedLoot" x="408" y="1632" width="24" height="24">
-  <properties>
-    <property name="item" value="BossRune5"/>
-  </properties>
- </object>
-<object id="337" name="Timo" type="FixedLoot" x="456" y="1632" width="24" height="24">
-  <properties>
     <property name="item" value="BossRushStatue"/>
   </properties>
  </object>
-<object id="338" name="Timo" type="FixedBlueprint" x="504" y="1632" width="24" height="24">
+<object id="333" name="Timo" type="FixedBlueprint" x="264" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_CDR_Kill"/>
   </properties>
  </object>
-<object id="339" name="Timo" type="FixedBlueprint" x="552" y="1632" width="24" height="24">
+<object id="334" name="Timo" type="FixedBlueprint" x="312" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgKill"/>
   </properties>
  </object>
-<object id="340" name="Timo" type="FixedBlueprint" x="600" y="1632" width="24" height="24">
+<object id="335" name="Timo" type="FixedBlueprint" x="360" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgRevenge"/>
   </properties>
  </object>
-<object id="341" name="Timo" type="FixedBlueprint" x="648" y="1632" width="24" height="24">
+<object id="336" name="Timo" type="FixedBlueprint" x="408" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_ManyMobsAround"/>
   </properties>
  </object>
-<object id="342" name="Timo" type="FixedBlueprint" x="696" y="1632" width="24" height="24">
+<object id="337" name="Timo" type="FixedBlueprint" x="456" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgDotsAround"/>
   </properties>
  </object>
-<object id="343" name="Timo" type="FixedBlueprint" x="744" y="1632" width="24" height="24">
+<object id="338" name="Timo" type="FixedBlueprint" x="504" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_Bleed"/>
   </properties>
  </object>
-<object id="344" name="Timo" type="FixedBlueprint" x="792" y="1632" width="24" height="24">
+<object id="339" name="Timo" type="FixedBlueprint" x="552" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_CorruptedHealing"/>
   </properties>
  </object>
-<object id="345" name="Timo" type="FixedBlueprint" x="840" y="1632" width="24" height="24">
+<object id="340" name="Timo" type="FixedBlueprint" x="600" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DodgeHeal"/>
   </properties>
  </object>
-<object id="346" name="Timo" type="FixedBlueprint" x="888" y="1632" width="24" height="24">
+<object id="341" name="Timo" type="FixedBlueprint" x="648" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_SpeedHeal"/>
   </properties>
  </object>
-<object id="347" name="Timo" type="FixedBlueprint" x="936" y="1632" width="24" height="24">
+<object id="342" name="Timo" type="FixedBlueprint" x="696" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgSkl"/>
   </properties>
  </object>
-<object id="348" name="Timo" type="FixedBlueprint" x="984" y="1632" width="24" height="24">
+<object id="343" name="Timo" type="FixedBlueprint" x="744" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_CooldownGrenade"/>
   </properties>
  </object>
-<object id="349" name="Timo" type="FixedBlueprint" x="1032" y="1632" width="24" height="24">
+<object id="344" name="Timo" type="FixedBlueprint" x="792" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgFirstHit"/>
   </properties>
  </object>
-<object id="350" name="Timo" type="FixedBlueprint" x="1080" y="1632" width="24" height="24">
+<object id="345" name="Timo" type="FixedBlueprint" x="840" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_InvisibilityOnKill"/>
   </properties>
  </object>
-<object id="351" name="Timo" type="FixedBlueprint" x="1128" y="1632" width="24" height="24">
+<object id="346" name="Timo" type="FixedBlueprint" x="888" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_Backpack_Melee"/>
   </properties>
  </object>
-<object id="352" name="Timo" type="FixedBlueprint" x="1176" y="1632" width="24" height="24">
+<object id="347" name="Timo" type="FixedBlueprint" x="936" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DeployedDmg"/>
   </properties>
  </object>
-<object id="353" name="Timo" type="FixedBlueprint" x="1224" y="1632" width="24" height="24">
+<object id="348" name="Timo" type="FixedBlueprint" x="984" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DeathBomb"/>
   </properties>
  </object>
-<object id="354" name="Timo" type="FixedBlueprint" x="1272" y="1632" width="24" height="24">
+<object id="349" name="Timo" type="FixedBlueprint" x="1032" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_NoMobAround"/>
   </properties>
  </object>
-<object id="355" name="Timo" type="FixedBlueprint" x="1320" y="1632" width="24" height="24">
+<object id="350" name="Timo" type="FixedBlueprint" x="1080" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_AmmoOnHit"/>
   </properties>
  </object>
-<object id="356" name="Timo" type="FixedBlueprint" x="1368" y="1632" width="24" height="24">
+<object id="351" name="Timo" type="FixedBlueprint" x="1128" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgSkillRanged"/>
   </properties>
  </object>
-<object id="357" name="Timo" type="FixedBlueprint" x="1416" y="1632" width="24" height="24">
+<object id="352" name="Timo" type="FixedBlueprint" x="1176" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgPlantedArrow"/>
   </properties>
  </object>
-<object id="358" name="Timo" type="FixedBlueprint" x="1464" y="1632" width="24" height="24">
+<object id="353" name="Timo" type="FixedBlueprint" x="1224" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgNearRanged"/>
   </properties>
  </object>
-<object id="359" name="Timo" type="FixedBlueprint" x="1512" y="1632" width="24" height="24">
+<object id="354" name="Timo" type="FixedBlueprint" x="1272" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_Cooldown"/>
   </properties>
  </object>
-<object id="360" name="Timo" type="FixedBlueprint" x="72" y="1704" width="24" height="24">
+<object id="355" name="Timo" type="FixedBlueprint" x="1320" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_ShareDamage"/>
   </properties>
  </object>
-<object id="361" name="Timo" type="FixedBlueprint" x="120" y="1704" width="24" height="24">
+<object id="356" name="Timo" type="FixedBlueprint" x="1368" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_Caltrops"/>
   </properties>
  </object>
-<object id="362" name="Timo" type="FixedBlueprint" x="168" y="1704" width="24" height="24">
+<object id="357" name="Timo" type="FixedBlueprint" x="1416" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_DodgeSlow"/>
   </properties>
  </object>
-<object id="363" name="Timo" type="FixedBlueprint" x="216" y="1704" width="24" height="24">
+<object id="358" name="Timo" type="FixedBlueprint" x="1464" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_CDR_Distance"/>
   </properties>
  </object>
-<object id="364" name="Timo" type="FixedBlueprint" x="264" y="1704" width="24" height="24">
+<object id="359" name="Timo" type="FixedBlueprint" x="1512" y="1632" width="24" height="24">
   <properties>
     <property name="item" value="P_Backpack_Ranged"/>
   </properties>
  </object>
-<object id="365" name="Timo" type="FixedBlueprint" x="312" y="1704" width="24" height="24">
+<object id="360" name="Timo" type="FixedBlueprint" x="72" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_ScaledHealth"/>
   </properties>
  </object>
-<object id="366" name="Timo" type="FixedBlueprint" x="360" y="1704" width="24" height="24">
+<object id="361" name="Timo" type="FixedBlueprint" x="120" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_DeathShield"/>
   </properties>
  </object>
-<object id="367" name="Timo" type="FixedBlueprint" x="408" y="1704" width="24" height="24">
+<object id="362" name="Timo" type="FixedBlueprint" x="168" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_CDR_Parry"/>
   </properties>
  </object>
-<object id="368" name="Timo" type="FixedBlueprint" x="456" y="1704" width="24" height="24">
+<object id="363" name="Timo" type="FixedBlueprint" x="216" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_DmgParry"/>
   </properties>
  </object>
-<object id="369" name="Timo" type="FixedBlueprint" x="504" y="1704" width="24" height="24">
+<object id="364" name="Timo" type="FixedBlueprint" x="264" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_HealOnParry"/>
   </properties>
  </object>
-<object id="370" name="Timo" type="FixedBlueprint" x="552" y="1704" width="24" height="24">
+<object id="365" name="Timo" type="FixedBlueprint" x="312" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_HealOnKill"/>
   </properties>
  </object>
-<object id="371" name="Timo" type="FixedBlueprint" x="600" y="1704" width="24" height="24">
+<object id="366" name="Timo" type="FixedBlueprint" x="360" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Hot"/>
   </properties>
  </object>
-<object id="372" name="Timo" type="FixedBlueprint" x="648" y="1704" width="24" height="24">
+<object id="367" name="Timo" type="FixedBlueprint" x="408" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Food"/>
   </properties>
  </object>
-<object id="373" name="Timo" type="FixedBlueprint" x="696" y="1704" width="24" height="24">
+<object id="368" name="Timo" type="FixedBlueprint" x="456" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_SuperParry"/>
   </properties>
  </object>
-<object id="374" name="Timo" type="FixedBlueprint" x="744" y="1704" width="24" height="24">
+<object id="369" name="Timo" type="FixedBlueprint" x="504" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_ColdDmg"/>
   </properties>
  </object>
-<object id="375" name="Timo" type="FixedBlueprint" x="792" y="1704" width="24" height="24">
+<object id="370" name="Timo" type="FixedBlueprint" x="552" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_CDR_locked"/>
   </properties>
  </object>
-<object id="376" name="Timo" type="FixedBlueprint" x="840" y="1704" width="24" height="24">
+<object id="371" name="Timo" type="FixedBlueprint" x="600" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_AttackSpeed_Combo"/>
   </properties>
  </object>
-<object id="377" name="Timo" type="FixedBlueprint" x="888" y="1704" width="24" height="24">
+<object id="372" name="Timo" type="FixedBlueprint" x="648" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Backpack_Shield"/>
   </properties>
  </object>
-<object id="378" name="Timo" type="FixedBlueprint" x="936" y="1704" width="24" height="24">
+<object id="373" name="Timo" type="FixedBlueprint" x="696" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Yolo"/>
   </properties>
  </object>
-<object id="379" name="Timo" type="FixedBlueprint" x="984" y="1704" width="24" height="24">
+<object id="374" name="Timo" type="FixedBlueprint" x="744" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_YoloDepleted"/>
   </properties>
  </object>
-<object id="380" name="Timo" type="FixedBlueprint" x="1032" y="1704" width="24" height="24">
+<object id="375" name="Timo" type="FixedBlueprint" x="792" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Rally"/>
   </properties>
  </object>
-<object id="381" name="Timo" type="FixedBlueprint" x="1080" y="1704" width="24" height="24">
+<object id="376" name="Timo" type="FixedBlueprint" x="840" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_QuickHeal"/>
   </properties>
  </object>
-<object id="382" name="Timo" type="FixedBlueprint" x="1128" y="1704" width="24" height="24">
+<object id="377" name="Timo" type="FixedBlueprint" x="888" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_SpeedBuff"/>
   </properties>
  </object>
-<object id="383" name="Timo" type="FixedBlueprint" x="1176" y="1704" width="24" height="24">
+<object id="378" name="Timo" type="FixedBlueprint" x="936" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Health"/>
   </properties>
  </object>
-<object id="384" name="Timo" type="FixedBlueprint" x="1224" y="1704" width="24" height="24">
+<object id="379" name="Timo" type="FixedBlueprint" x="984" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Curse"/>
   </properties>
  </object>
-<object id="385" name="Timo" type="FixedBlueprint" x="1272" y="1704" width="24" height="24">
+<object id="380" name="Timo" type="FixedBlueprint" x="1032" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_EasierCurse"/>
   </properties>
  </object>
-<object id="386" name="Timo" type="FixedBlueprint" x="1320" y="1704" width="24" height="24">
+<object id="381" name="Timo" type="FixedBlueprint" x="1080" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Traps"/>
   </properties>
  </object>
-<object id="387" name="Timo" type="FixedBlueprint" x="1368" y="1704" width="24" height="24">
+<object id="382" name="Timo" type="FixedBlueprint" x="1128" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Disengage"/>
   </properties>
  </object>
-<object id="388" name="Timo" type="FixedBlueprint" x="1416" y="1704" width="24" height="24">
+<object id="383" name="Timo" type="FixedBlueprint" x="1176" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Execute_LowHealth"/>
   </properties>
  </object>
-<object id="389" name="Timo" type="FixedBlueprint" x="1464" y="1704" width="24" height="24">
+<object id="384" name="Timo" type="FixedBlueprint" x="1224" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_CDR_Crit"/>
   </properties>
  </object>
-<object id="390" name="Timo" type="FixedBlueprint" x="1512" y="1704" width="24" height="24">
+<object id="385" name="Timo" type="FixedBlueprint" x="1272" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Ammo"/>
   </properties>
  </object>
-<object id="391" name="Timo" type="FixedBlueprint" x="72" y="1776" width="24" height="24">
+<object id="386" name="Timo" type="FixedBlueprint" x="1320" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_U28_PerkGoldShield"/>
   </properties>
  </object>
-<object id="392" name="Timo" type="FixedBlueprint" x="120" y="1776" width="24" height="24">
+<object id="387" name="Timo" type="FixedBlueprint" x="1368" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_U28_PerkGoldSpeed"/>
   </properties>
  </object>
-<object id="393" name="Timo" type="FixedBlueprint" x="168" y="1776" width="24" height="24">
+<object id="388" name="Timo" type="FixedBlueprint" x="1416" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_U28_PerkGoldPerDamage"/>
   </properties>
  </object>
-<object id="394" name="Timo" type="FixedBlueprint" x="216" y="1776" width="24" height="24">
+<object id="389" name="Timo" type="FixedBlueprint" x="1464" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_Wishes"/>
   </properties>
  </object>
-<object id="395" name="Timo" type="FixedBlueprint" x="264" y="1776" width="24" height="24">
+<object id="390" name="Timo" type="FixedBlueprint" x="1512" y="1704" width="24" height="24">
   <properties>
     <property name="item" value="P_WishesDepleted"/>
   </properties>
  </object>
-<object id="396" name="Timo" type="FixedBlueprint" x="96" y="1872" width="24" height="24">
+<object id="391" name="Timo" type="FixedBlueprint" x="96" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Cannon"/>
   </properties>
  </object>
-<object id="397" name="Timo" type="FixedBlueprint" x="144" y="1872" width="24" height="24">
+<object id="392" name="Timo" type="FixedBlueprint" x="144" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Trident"/>
   </properties>
  </object>
-<object id="398" name="Timo" type="FixedBlueprint" x="192" y="1872" width="24" height="24">
+<object id="393" name="Timo" type="FixedBlueprint" x="192" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="HandHook"/>
   </properties>
  </object>
-<object id="399" name="Timo" type="FixedBlueprint" x="240" y="1872" width="24" height="24">
+<object id="394" name="Timo" type="FixedBlueprint" x="240" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Shark"/>
   </properties>
  </object>
-<object id="400" name="Timo" type="FixedBlueprint" x="288" y="1872" width="24" height="24">
+<object id="395" name="Timo" type="FixedBlueprint" x="288" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="ElbowBlades"/>
   </properties>
  </object>
-<object id="401" name="Timo" type="FixedBlueprint" x="336" y="1872" width="24" height="24">
+<object id="396" name="Timo" type="FixedBlueprint" x="336" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="WreckingBall"/>
   </properties>
  </object>
-<object id="402" name="Timo" type="FixedBlueprint" x="384" y="1872" width="24" height="24">
+<object id="397" name="Timo" type="FixedBlueprint" x="384" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="QueenRapier"/>
   </properties>
  </object>
-<object id="403" name="Timo" type="FixedBlueprint" x="432" y="1872" width="24" height="24">
+<object id="398" name="Timo" type="FixedBlueprint" x="432" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="SpawnLilStaphy"/>
   </properties>
  </object>
-<object id="404" name="Timo" type="FixedBlueprint" x="480" y="1872" width="24" height="24">
+<object id="399" name="Timo" type="FixedBlueprint" x="480" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="LilStaphyStab"/>
   </properties>
  </object>
-<object id="405" name="Timo" type="FixedBlueprint" x="528" y="1872" width="24" height="24">
+<object id="400" name="Timo" type="FixedBlueprint" x="528" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="SpawnAdultLilStaphy"/>
   </properties>
  </object>
-<object id="406" name="Timo" type="FixedBlueprint" x="576" y="1872" width="24" height="24">
+<object id="401" name="Timo" type="FixedBlueprint" x="576" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="AdultLilStaphyStab"/>
   </properties>
  </object>
-<object id="407" name="Timo" type="FixedBlueprint" x="624" y="1872" width="24" height="24">
+<object id="402" name="Timo" type="FixedBlueprint" x="624" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="ThrowingCards"/>
   </properties>
  </object>
-<object id="408" name="Timo" type="FixedBlueprint" x="672" y="1872" width="24" height="24">
+<object id="403" name="Timo" type="FixedBlueprint" x="672" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="HeavyBow"/>
   </properties>
  </object>
-<object id="409" name="Timo" type="FixedBlueprint" x="720" y="1872" width="24" height="24">
+<object id="404" name="Timo" type="FixedBlueprint" x="720" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Staphy"/>
   </properties>
  </object>
-<object id="410" name="Timo" type="FixedBlueprint" x="768" y="1872" width="24" height="24">
+<object id="405" name="Timo" type="FixedBlueprint" x="768" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="ANCHORGUY"/>
   </properties>
  </object>
-<object id="411" name="Timo" type="FixedBlueprint" x="816" y="1872" width="24" height="24">
+<object id="406" name="Timo" type="FixedBlueprint" x="816" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="ServanteDefault"/>
   </properties>
  </object>
-<object id="412" name="Timo" type="FixedBlueprint" x="864" y="1872" width="24" height="24">
+<object id="407" name="Timo" type="FixedBlueprint" x="864" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Servante1"/>
   </properties>
  </object>
-<object id="413" name="Timo" type="FixedBlueprint" x="912" y="1872" width="24" height="24">
+<object id="408" name="Timo" type="FixedBlueprint" x="912" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Servante2"/>
   </properties>
  </object>
-<object id="414" name="Timo" type="FixedBlueprint" x="960" y="1872" width="24" height="24">
+<object id="409" name="Timo" type="FixedBlueprint" x="960" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Servante3"/>
   </properties>
  </object>
-<object id="415" name="Timo" type="FixedBlueprint" x="1008" y="1872" width="24" height="24">
+<object id="410" name="Timo" type="FixedBlueprint" x="1008" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="Servante4"/>
   </properties>
  </object>
-<object id="416" name="Timo" type="FixedBlueprint" x="1056" y="1872" width="24" height="24">
+<object id="411" name="Timo" type="FixedBlueprint" x="1056" y="1872" width="24" height="24">
   <properties>
     <property name="item" value="FlawlessServante"/>
   </properties>
  </object>
-<object id="417" name="Timo" type="FixedBlueprint" x="96" y="1944" width="24" height="24">
+<object id="412" name="Timo" type="FixedBlueprint" x="96" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="QueenDefault"/>
   </properties>
  </object>
-<object id="418" name="Timo" type="FixedBlueprint" x="144" y="1944" width="24" height="24">
+<object id="413" name="Timo" type="FixedBlueprint" x="144" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="Queen1"/>
   </properties>
  </object>
-<object id="419" name="Timo" type="FixedBlueprint" x="192" y="1944" width="24" height="24">
+<object id="414" name="Timo" type="FixedBlueprint" x="192" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="Queen2"/>
   </properties>
  </object>
-<object id="420" name="Timo" type="FixedBlueprint" x="240" y="1944" width="24" height="24">
+<object id="415" name="Timo" type="FixedBlueprint" x="240" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="Queen3"/>
   </properties>
  </object>
-<object id="421" name="Timo" type="FixedBlueprint" x="288" y="1944" width="24" height="24">
+<object id="416" name="Timo" type="FixedBlueprint" x="288" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="Queen4"/>
   </properties>
  </object>
-<object id="422" name="Timo" type="FixedBlueprint" x="336" y="1944" width="24" height="24">
+<object id="417" name="Timo" type="FixedBlueprint" x="336" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="FlawlessQueen"/>
   </properties>
  </object>
-<object id="423" name="Timo" type="FixedBlueprint" x="384" y="1944" width="24" height="24">
+<object id="418" name="Timo" type="FixedBlueprint" x="384" y="1944" width="24" height="24">
   <properties>
     <property name="item" value="BlueErinaceus"/>
   </properties>
  </object>
-<object id="424" name="Timo" type="FixedBlueprint" x="96" y="2016" width="24" height="24">
+<object id="419" name="Timo" type="FixedBlueprint" x="96" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="PetrifiedKey"/>
   </properties>
  </object>
-<object id="425" name="Timo" type="FixedBlueprint" x="144" y="2016" width="24" height="24">
+<object id="420" name="Timo" type="FixedBlueprint" x="144" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="MariaCatKey"/>
   </properties>
  </object>
-<object id="426" name="Timo" type="FixedBlueprint" x="192" y="2016" width="24" height="24">
+<object id="421" name="Timo" type="FixedBlueprint" x="192" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="HolyWater"/>
   </properties>
  </object>
-<object id="427" name="Timo" type="FixedBlueprint" x="240" y="2016" width="24" height="24">
+<object id="422" name="Timo" type="FixedBlueprint" x="240" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="TPSword"/>
   </properties>
  </object>
-<object id="428" name="Timo" type="FixedBlueprint" x="288" y="2016" width="24" height="24">
+<object id="423" name="Timo" type="FixedBlueprint" x="288" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="WiggleWhip"/>
   </properties>
  </object>
-<object id="429" name="Timo" type="FixedBlueprint" x="336" y="2016" width="24" height="24">
+<object id="424" name="Timo" type="FixedBlueprint" x="336" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="Bible"/>
   </properties>
  </object>
-<object id="430" name="Timo" type="FixedBlueprint" x="384" y="2016" width="24" height="24">
+<object id="425" name="Timo" type="FixedBlueprint" x="384" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="SnakeSwordWeapon"/>
   </properties>
  </object>
-<object id="431" name="Timo" type="FixedBlueprint" x="528" y="2016" width="24" height="24">
+<object id="426" name="Timo" type="FixedBlueprint" x="528" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="VampireKiller"/>
   </properties>
  </object>
-<object id="432" name="Timo" type="FixedBlueprint" x="576" y="2016" width="24" height="24">
+<object id="427" name="Timo" type="FixedBlueprint" x="576" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="AdeleScythe"/>
   </properties>
  </object>
-<object id="433" name="Timo" type="FixedBlueprint" x="672" y="2016" width="24" height="24">
+<object id="428" name="Timo" type="FixedBlueprint" x="672" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="BouncingStone"/>
   </properties>
  </object>
-<object id="434" name="Timo" type="FixedBlueprint" x="720" y="2016" width="24" height="24">
+<object id="429" name="Timo" type="FixedBlueprint" x="720" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="SpawnCat"/>
   </properties>
  </object>
-<object id="435" name="Timo" type="FixedBlueprint" x="816" y="2016" width="24" height="24">
+<object id="430" name="Timo" type="FixedBlueprint" x="816" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="BatVolley"/>
   </properties>
  </object>
-<object id="436" name="Timo" type="FixedBlueprint" x="912" y="2016" width="24" height="24">
+<object id="431" name="Timo" type="FixedBlueprint" x="912" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="Cross"/>
   </properties>
  </object>
-<object id="437" name="Timo" type="FixedBlueprint" x="960" y="2016" width="24" height="24">
+<object id="432" name="Timo" type="FixedBlueprint" x="960" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="ThrowingAxe"/>
   </properties>
  </object>
-<object id="438" name="Timo" type="FixedBlueprint" x="1008" y="2016" width="24" height="24">
+<object id="433" name="Timo" type="FixedBlueprint" x="1008" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="MedusaHead"/>
   </properties>
  </object>
-<object id="439" name="Timo" type="FixedBlueprint" x="1056" y="2016" width="24" height="24">
+<object id="434" name="Timo" type="FixedBlueprint" x="1056" y="2016" width="24" height="24">
   <properties>
     <property name="item" value="AlucardShield"/>
   </properties>
  </object>
-<object id="440" name="Timo" type="FixedBlueprint" x="96" y="2088" width="24" height="24">
+<object id="435" name="Timo" type="FixedBlueprint" x="96" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Simon"/>
   </properties>
  </object>
-<object id="441" name="Timo" type="FixedBlueprint" x="144" y="2088" width="24" height="24">
+<object id="436" name="Timo" type="FixedBlueprint" x="144" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Alucard"/>
   </properties>
  </object>
-<object id="442" name="Timo" type="FixedBlueprint" x="192" y="2088" width="24" height="24">
+<object id="437" name="Timo" type="FixedBlueprint" x="192" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="RichterROB"/>
   </properties>
  </object>
-<object id="443" name="Timo" type="FixedBlueprint" x="240" y="2088" width="24" height="24">
+<object id="438" name="Timo" type="FixedBlueprint" x="240" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Sypha"/>
   </properties>
  </object>
-<object id="444" name="Timo" type="FixedBlueprint" x="288" y="2088" width="24" height="24">
+<object id="439" name="Timo" type="FixedBlueprint" x="288" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Trevor"/>
   </properties>
  </object>
-<object id="445" name="Timo" type="FixedBlueprint" x="336" y="2088" width="24" height="24">
+<object id="440" name="Timo" type="FixedBlueprint" x="336" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Maria"/>
   </properties>
  </object>
-<object id="446" name="Timo" type="FixedBlueprint" x="384" y="2088" width="24" height="24">
+<object id="441" name="Timo" type="FixedBlueprint" x="384" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Hector"/>
   </properties>
  </object>
-<object id="447" name="Timo" type="FixedBlueprint" x="432" y="2088" width="24" height="24">
+<object id="442" name="Timo" type="FixedBlueprint" x="432" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="HauntedArmor"/>
   </properties>
  </object>
-<object id="448" name="Timo" type="FixedBlueprint" x="480" y="2088" width="24" height="24">
+<object id="443" name="Timo" type="FixedBlueprint" x="480" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="AdeleDefault"/>
   </properties>
  </object>
-<object id="449" name="Timo" type="FixedBlueprint" x="528" y="2088" width="24" height="24">
+<object id="444" name="Timo" type="FixedBlueprint" x="528" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Adele1"/>
   </properties>
  </object>
-<object id="450" name="Timo" type="FixedBlueprint" x="576" y="2088" width="24" height="24">
+<object id="445" name="Timo" type="FixedBlueprint" x="576" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Adele2"/>
   </properties>
  </object>
-<object id="451" name="Timo" type="FixedBlueprint" x="624" y="2088" width="24" height="24">
+<object id="446" name="Timo" type="FixedBlueprint" x="624" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Adele3"/>
   </properties>
  </object>
-<object id="452" name="Timo" type="FixedBlueprint" x="672" y="2088" width="24" height="24">
+<object id="447" name="Timo" type="FixedBlueprint" x="672" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Adele4"/>
   </properties>
  </object>
-<object id="453" name="Timo" type="FixedBlueprint" x="720" y="2088" width="24" height="24">
+<object id="448" name="Timo" type="FixedBlueprint" x="720" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="FlawlessAdele"/>
   </properties>
  </object>
-<object id="454" name="Timo" type="FixedBlueprint" x="768" y="2088" width="24" height="24">
+<object id="449" name="Timo" type="FixedBlueprint" x="768" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="DookuDefault"/>
   </properties>
  </object>
-<object id="455" name="Timo" type="FixedBlueprint" x="816" y="2088" width="24" height="24">
+<object id="450" name="Timo" type="FixedBlueprint" x="816" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Dooku1"/>
   </properties>
  </object>
-<object id="456" name="Timo" type="FixedBlueprint" x="864" y="2088" width="24" height="24">
+<object id="451" name="Timo" type="FixedBlueprint" x="864" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Dooku2"/>
   </properties>
  </object>
-<object id="457" name="Timo" type="FixedBlueprint" x="912" y="2088" width="24" height="24">
+<object id="452" name="Timo" type="FixedBlueprint" x="912" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Dooku3"/>
   </properties>
  </object>
-<object id="458" name="Timo" type="FixedBlueprint" x="960" y="2088" width="24" height="24">
+<object id="453" name="Timo" type="FixedBlueprint" x="960" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="Dooku4"/>
   </properties>
  </object>
-<object id="459" name="Timo" type="FixedBlueprint" x="1008" y="2088" width="24" height="24">
+<object id="454" name="Timo" type="FixedBlueprint" x="1008" y="2088" width="24" height="24">
   <properties>
     <property name="item" value="FlawlessDooku"/>
   </properties>
