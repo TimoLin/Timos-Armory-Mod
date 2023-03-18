@@ -7,6 +7,8 @@ def main():
 
     # Read dlc dict
     dlcs, dlcDict = itemsDLC()
+    print(dlcs)
+    newDlcsDict = dlcDict[-2]+dlcDict[-1]
 
     itemDir = "./ExpandedCDB-BP/item/"
     # 1. Melee items
@@ -52,7 +54,7 @@ def main():
     lastItem = ""
     for item in os.listdir(itemDir+"/Meta"):
         item = item[6:item.index(".")]
-        if "BossRune" not in item:
+        if not isInBlacklist(item):
             metas.append(item)
         # if item[0:-1] == lastItem[0:-1]:
             # metas[-1] = item
@@ -88,7 +90,7 @@ def main():
     weapons = []
     for item in melee+ranged+shield:
         if not isInBlacklist(item):
-            if item not in weapons and item not in dlcDict[-1]:
+            if item not in weapons and item not in newDlcsDict:
                 # Item in the latest DLC is not included here
                 weapons.append(item)
     sizeOfWeapons = len(weapons)
@@ -96,7 +98,7 @@ def main():
     skills = []
     for item in trap+grenade+power:
         if not isInBlacklist(item):
-            if item not in dlcDict[-1]: 
+            if item not in newDlcsDict: 
                 # Item in the latest DLC is not included here
                 skills.append(item)
     sizeOfSkills  = len(skills)
@@ -104,7 +106,7 @@ def main():
     temp = skins
     skins = []
     for item in temp:
-        if item not in dlcDict[-1]:
+        if item not in newDlcsDict:
             # Item in the latest DLC is not included here
             skins.append(item)
     sizeOfSkins  = len(skins)
@@ -116,7 +118,7 @@ def main():
     print("      Skins  : {0}".format(sizeOfSkins))
     print("      Metas  : {0}".format(sizeOfMetas))
 
-    print (len(dlcDict[0]),len(dlcDict[1]),len(dlcDict[2]))
+    print (len(dlcDict[0]),len(dlcDict[1]),len(dlcDict[2]),len(dlcDict[3]))
 
     # Change this when the map is resized in the height direction (Add rows to the top)
     nAdd = 3
@@ -193,6 +195,7 @@ def main():
                     id += 1
 
     # New dlc items showcase
+    ## QoS
     yList = [75,78]
     yList = [y+nAdd for y in yList]
     
@@ -201,11 +204,31 @@ def main():
     for j in range(len(yList)):
         for i in range(nInLine):
             itemIndex = j*nInLine+i
+            # Insert exception handler
+            if itemIndex < len(dlcDict[-2]):
+                item = dlcDict[-2][itemIndex]
+                if not isInBlacklist(item):
+                    x = xRange[0]+i*2+1
+                    y = yList[j]
+                    f.writelines(xmlWrapperBP(id, x, y, item))
+                    id += 1
+
+    ## Purple
+    yList = [81,84]
+    yList = [y+nAdd for y in yList]
+    
+    xRange = [3,46]
+    nInLine = int((xRange[-1]-xRange[0])/2)
+    for j in range(len(yList)):
+        for i in range(nInLine):
+            itemIndex = j*nInLine+i
             if itemIndex < len(dlcDict[-1]):
-                x = xRange[0]+i*2+1
-                y = yList[j]
-                f.writelines(xmlWrapperBP(id,x,y,dlcDict[-1][itemIndex]))
-                id += 1
+                item = dlcDict[-1][itemIndex]
+                if not isInBlacklist(item):
+                    x = xRange[0]+i*2+1
+                    y = yList[j]
+                    f.writelines(xmlWrapperBP(id, x, y, item))
+                    id += 1
    
     tail = lines[-2:]
     f.writelines(tail)

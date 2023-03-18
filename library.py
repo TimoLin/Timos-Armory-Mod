@@ -62,11 +62,12 @@ def itemsDLC():
     fName = "itemsDlc.list"
 
     # RiseOfTheGiant is free dlc
-    dlcs = ['TheBadSeed', 'FatalFalls', 'TheQueenAndTheSea']
-    dlcDict = []
+    dlcs = ['TheBadSeed', 'FatalFalls', 'TheQueenAndTheSea', 'Purple']
+    dlcDict = [], 
     tbs = []
     ff  = []
     tqats = []
+    purple = []
 
     with open(fName,"r") as f:
         for line in f.readlines():
@@ -88,6 +89,8 @@ def itemsDLC():
                     ff.append(item)
                 elif dlc == dlcs[2]:
                     tqats.append(item)
+                elif dlc == dlcs[3]:
+                    purple.append(item)
                 '''
                 if cat in ["Melee","Ranged","Shield"]:
                     subDictWeapon[item] = dlc
@@ -99,7 +102,7 @@ def itemsDLC():
                     subDictMeta[item] = dlc
                 '''
 
-    return dlcs, [tbs,ff, tqats]
+    return dlcs, [tbs,ff, tqats,purple]
 
 def isInBlacklist(item):
     '''Check if the item is in the blacklist
@@ -107,9 +110,9 @@ def isInBlacklist(item):
     '''
     blackList = [
         "StartSword", "StartBow","StartShield" ,
-        "BossRune",
+        "BossRune", "BackPackKey",
         # Weapons
-         "HardLightGun",
+         "HardLightGun", "SnakeSwordWeaponAlt", "SnakeSwordSwap","RichterVampireKiller", "RichterCross", "CatAttack",
         # skills 
         "ExplodeFriendlyHardy","FlyingSwordCallback","OwlUp","BackDash"
          ]
