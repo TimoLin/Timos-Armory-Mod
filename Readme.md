@@ -1,7 +1,10 @@
 Timo's Armory Mod
 =================
-[![Timo's BluePrints mode](https://img.shields.io/badge/Timo's%20BluePrints%20Mode-V3.1-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=2399579218)
-[![Timo's Armory mode](https://img.shields.io/badge/Timo's%20Armory%20Mode-V2.8-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=2389535625)
+[![Timo's BluePrints Mod](https://img.shields.io/badge/Timo's%20BluePrints%20Mod-V3.3-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=2399579218)
+[![Timo's Armory Mod](https://img.shields.io/badge/Timo's%20Armory%20Mod-V2.8-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=2389535625)
+
+## Demo
+![Screenshot](https://steamuserimages-a.akamaihd.net/ugc/1763693190280213490/B6F9216707B83D1890831D8A43331102D5A209B3/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
 ## Motivation  
 [Inky's Armory Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1506010908&searchtext=armory) is a great Armory mod which gives me much fun, yet it hasn't updated for some time and it has bugs in V2.2. Therefore, based on its idea, I create this new armory mod.   
